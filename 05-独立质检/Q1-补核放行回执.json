@@ -1,0 +1,17 @@
+[
+  {
+    "action": "approve",
+    "exit": 0,
+    "stdout": "{\"saved\": true, \"active_content\": \"watcha-conference-20261024\"}\n"
+  },
+  {
+    "action": "release",
+    "exit": 0,
+    "stdout": "{\"saved\": true, \"active_content\": \"watcha-conference-20261024\"}\n"
+  },
+  {
+    "action": "check",
+    "exit": 0,
+    "stdout": "{\"allowed\": true, \"content\": \"watcha-conference-20261024\", \"stage\": \"05\"}\n"
+  }
+]

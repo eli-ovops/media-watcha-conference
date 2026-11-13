@@ -1,0 +1,161 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v2",
+  "referenceCatalogRevision": "217ebeb42f5bfca098228f5eb8b29d5c3196c0a2a7b57a38eb8e7c8e07720c7e",
+  "pages": [
+    {
+      "stableId": "board-focus",
+      "sceneType": "prompt-reading",
+      "implementationMode": "adapted",
+      "start": 20.5,
+      "end": 24.5,
+      "sourceSpans": [
+        {
+          "text": "现场红黑榜，Claude真是罪孽深重啊"
+        }
+      ],
+      "referenceChoices": [
+        {
+          "id": "interaction-news-spotlight",
+          "reason": "同一P08源图先推进再单层挖孔，Claude贴纸仍是原像素，保留上下文。",
+          "preserve": "同源整图、相机组位移与缩放、停稳后单层蒙版挖孔及原曲线完整保留",
+          "change": "横版1920×1080几何参数化为1080×1920；本期P08/ROI，4秒窗口，末态直接交布袋不回全景",
+          "useScope": "20.5—24.5 P08整图到Claude重点",
+          "useMode": "local",
+          "keyAction": "Same source image and spotlight aperture share translated/scaled camera; emphasis after settlement.",
+          "source": {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/NewsFocus.original.tsx",
+            "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+            "symbol": "NewsSpotlightFocus"
+          },
+          "implementation": {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/NewsFocusPortrait.tsx",
+            "sha256": "d4622c0c9d2ab12211a0303f50ec0e33d0300a0782264f0156445882699f4b37",
+            "symbol": "NewsSpotlightFocus"
+          },
+          "callSite": {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/Motion.tsx",
+            "sha256": "aa4ccf7a24dbdff432f54cc97f79f309f75ac44d76f0b0aff1b22dbeac3ed33d",
+            "symbol": "BoardFocus",
+            "callee": "NewsSpotlightFocus"
+          }
+        }
+      ],
+      "componentPlan": {
+        "query": "真实截图 局部蒙版聚焦与镜头推进",
+        "use": "recording-focus",
+        "candidates": [
+          {
+            "id": "interaction-news-spotlight",
+            "decision": "selected",
+            "reason": "同一P08源图先推进再单层挖孔，Claude贴纸仍是原像素，保留上下文。"
+          },
+          {
+            "id": "interaction-news-brush",
+            "decision": "rejected",
+            "reason": "荧光笔覆盖照片贴纸会改变红绿颜色，适合文字行而非投票照片。"
+          },
+          {
+            "id": "fred-wave2-42-t08d",
+            "decision": "rejected",
+            "reason": "Observed preview uses several numbered UI regions and white blur. Single Claude photo region needs neither numbers nor multi-target transitions."
+          }
+        ],
+        "inspectedReferences": [
+          {
+            "id": "interaction-news-spotlight",
+            "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-2-preview.mp4",
+            "sha256": "31bbd02acb86c9c20e5bcae2321b98becf402532783bfc790d4d4a08a596e1f7",
+            "observations": "已看准确v2采样图0—5.75秒：整页推进，2.75后背景暗，目标孔与源图共变换，后退；本片同对象推进并保留停稳后强调。"
+          }
+        ]
+      },
+      "componentAcceptance": {
+        "status": "passed",
+        "stage": "keyframes",
+        "reviewer": "assistant",
+        "checks": {
+          "semanticFit": "P08 original pixels enlarge to Claude, retain board context then darken outside one region.",
+          "corePreserved": "Exact 64-line component retained, only portrait dimensions/safe window parametrized; same camera matrix, easing, aperture, camera-first ordering.",
+          "visualQuality": "Inspected 7 actual 1080x1920 frames including midpoint, before/after emphasis and tail. Claude name and sticker edges stay within viewport, no duplicate or clipped aperture. Region fills 91% screen width; full-board establishing view lasts 0.7s before motion."
+        },
+        "evidence": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-0.png",
+            "sha256": "81ff69ab111a1d89d2294bc532651d18e35bfab01833d76d3d93eaaa546a564e"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-42.png",
+            "sha256": "81ff69ab111a1d89d2294bc532651d18e35bfab01833d76d3d93eaaa546a564e"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-75.png",
+            "sha256": "76ef4137053d72b3f1e11765f80719115c515c32ce08674ebc9883b2354e0b85"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-110.png",
+            "sha256": "ada998c11ecb3ffd856d5cfdce7889d6af924b4512fcb370a26c9ffe7e4c0a2c"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-150.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-210.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-239.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          }
+        ],
+        "contextSha256": "676ff97602842567ce9ccf3cc26909ba6ad53234c4be77bf659574b1f32f45fe"
+      },
+      "sceneGuide": {
+        "type": "prompt-reading"
+      },
+      "keyframeReview": {
+        "frames": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-0.png",
+            "sha256": "81ff69ab111a1d89d2294bc532651d18e35bfab01833d76d3d93eaaa546a564e"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-42.png",
+            "sha256": "81ff69ab111a1d89d2294bc532651d18e35bfab01833d76d3d93eaaa546a564e"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-75.png",
+            "sha256": "76ef4137053d72b3f1e11765f80719115c515c32ce08674ebc9883b2354e0b85"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-110.png",
+            "sha256": "ada998c11ecb3ffd856d5cfdce7889d6af924b4512fcb370a26c9ffe7e4c0a2c"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-150.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-210.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/motion-239.png",
+            "sha256": "bd1f006361dac4deacafb709b147a6818ca33937a9681c937994272e5c24cc1a"
+          }
+        ],
+        "sourceFiles": [
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/NewsFocusPortrait.tsx",
+            "sha256": "d4622c0c9d2ab12211a0303f50ec0e33d0300a0782264f0156445882699f4b37"
+          },
+          {
+            "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/Motion.tsx",
+            "sha256": "aa4ccf7a24dbdff432f54cc97f79f309f75ac44d76f0b0aff1b22dbeac3ed33d"
+          }
+        ]
+      }
+    }
+  ]
+}

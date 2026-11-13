@@ -1,0 +1,13 @@
+{
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a79-f636-7823-9350-3c5f7526e6c7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_ACCEPTED",
+  "scope": "BGMtechnicalsourceonly;otherplatforms"
+}

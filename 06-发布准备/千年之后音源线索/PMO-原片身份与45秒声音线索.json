@@ -1,0 +1,24 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "source": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/千年之后音源线索/ai-funnel-vibe-tiktok-own-download-20261024.mp4",
+  "sha256": "0a7532353b1ea57ba443e3eface9d7027680eb83600b1e1468199a6507a2100d",
+  "source_identity": "ExactnativeownTikTok7698739733651934465;10secimageinspectedmatchesAI认知漏斗animation",
+  "historical_contract": "ai-funnel-vibe-20261020 explicitnohuman/noVO/TTS;user-addedmusicinputlater",
+  "read_frame": "核对/source-10.jpg",
+  "audio_candidate_range": [
+    0,
+    45.7
+  ],
+  "asr_evidence": "核对/asr-first45.txt",
+  "asr_result": "(音樂) twice;nolexicalspeechrecognized",
+  "supported_conclusion": "Noevidencefrom06orcurrentASRsupportsdefiniteoldnarration;useasuser-requestedpriorBGMcandidate",
+  "limitations": "ASRnotdirecthearing;notsource-isolatedstudioaudio;maycontainsourceeffects/unrecognizedvoice;finaluserlisteningrequired",
+  "retained_files": [
+    "核对/source-10.jpg",
+    "核对/music-first45.wav",
+    "核对/asr-first45.txt",
+    "核对/asr-first45.srt",
+    "核对/asr-first45.log"
+  ],
+  "youtube": "Historicalglobalblockremains;donotcircumvent"
+}

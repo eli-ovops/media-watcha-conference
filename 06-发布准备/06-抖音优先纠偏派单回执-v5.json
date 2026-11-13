@@ -1,0 +1,18 @@
+{
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a7f-9a85-7481-9e6c-75f11280ba56\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_ACCEPTED",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "reason": "Two06turnsprematurelyendedwithFinderreveal;boundedcurrentdrafttask",
+  "publication_authorized": false
+}

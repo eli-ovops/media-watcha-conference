@@ -1,0 +1,30 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "authorization_id": "watcha-conference-20261024-publish-ready-platforms-v1",
+  "human_source": "本PMO会话用户2026-10-25明确指令：“发送吧。”结合前一轮明确“抖音我自己弄”，本次范围仅限当时已保存重开且列为待本人发送的B站、TikTok、X。",
+  "platforms": [
+    "B站",
+    "TikTok",
+    "X"
+  ],
+  "accounts": {
+    "B站": "Eli-AI",
+    "TikTok": "Eli-AI / @elimakesapps",
+    "X": "Eli-AI / @cczij1112"
+  },
+  "video_path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-千年之后混音/watcha-full-v4-qiannian.mp4",
+  "video_sha256": "420a3b9c1f1bfbfe117d91936c653f6d29aa08b507ddce6c770ad2b195adc5be",
+  "actions": "复用已保存的本条v4草稿；发布前在平台原生账号中核对没有同条已公开作品；无重复且草稿与SHA/内容一致时，公开提交一次。任一站重复或状态不明则不提交该站并记录证据。不得重新上传，不得评论、置顶、私信、关注、定时、付费或删除。",
+  "visibility": "public",
+  "time": "2026-10-25 Asia/Shanghai, immediately after current native-page duplicate and draft verification",
+  "excluded": [
+    "抖音（用户本人处理）",
+    "视频号（已知安全拒绝，用户手动）",
+    "YouTube（历史同曲GLOBAL_BLOCK，未授权改曲）",
+    "微博（持久草稿未证）",
+    "LinkedIn（未准备）",
+    "小红书（未准备）",
+    "Instagram/Facebook（暂停）"
+  ],
+  "one_time": true
+}

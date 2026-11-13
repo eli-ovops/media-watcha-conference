@@ -1,0 +1,112 @@
+- complementary:
+  - button "作品发布":
+    - generic: 作品发布
+  - menu:
+    - menuitem "首页":
+      - generic: 首页
+    - menuitem "内容管理":
+      - generic: 内容管理
+    - menuitem "数据中心":
+      - generic: 数据中心
+    - menuitem "收入变现":
+      - generic: 收入变现
+    - menuitem "创作服务":
+      - generic: 创作服务
+- navigation "智能创作":
+  - button "首页":
+    - text: 首页
+  - button "AI分身": AI分身
+  - button "随变": 随变
+  - button "世界书": 世界书
+  - button "造世界": 造世界
+  - button "AI工坊": AI工坊
+- button "星光余额 0，查看星光明细":
+  - generic: "0"
+- generic: 基础信息
+- generic: 作品描述
+- textbox "填写作品标题，为作品获得更多流量": 逛个AI大会，怎么还考上试了？
+- generic: 15/30
+- generic: 10月24日逛观猹大会，看到了AI茶饮、赛博换装、AI拼豆，还有让人会心一笑的Claude周边。顺便参加了一场闭卷AI能力考试，不能用手机，最后考了92分。换你来考，能拿多少分？
+- generic: "#观猹"
+- generic: "#观猹大会"
+- generic: "#AI"
+- generic: "#AI考试"
+- generic: "#人工智能"
+- generic: "#添加话题"
+- generic: "@好友"
+- generic: 119 / 1000
+- generic: 推荐
+- generic: "#巡演"
+- generic: "#世界渲染大赛"
+- generic: "#发布会"
+- generic: "#宣传片制作"
+- generic: "#舞美灯光"
+- generic: "+15"
+- generic: 官方活动
+- generic: 寡门门主脱单卡池
+- generic: 热度：331
+- generic: 秦昊Jeff邀你定格光阴的模样
+- generic: 热度：445
+- generic: 设置封面
+- generic: 竖封面3:4
+- generic: 横封面4:3
+- generic: 封面效果检测通过
+- generic: Ai智能推荐封面
+- generic: 好封面会吸引更多人浏览作品优质封面示例
+- generic: 添加合集
+- generic: 合集
+- generic: 请选择合集
+- generic: 自主声明
+- generic: 内容由AI生成
+- generic: 扩展信息
+- text: "* * *"
+- generic: 添加标签
+- generic: 位置
+- generic: 输入地理位置
+- generic: 关联热点
+- generic: 点击输入热点词
+- generic: 发布设置
+- generic: 谁可以看
+- checkbox "公开" [checked]
+- generic: 公开
+- checkbox "好友可见"
+- generic: 好友可见
+- checkbox "仅自己可见"
+- generic: 仅自己可见
+- generic: 保存权限
+- checkbox "允许" [checked]
+- generic: 允许
+- checkbox "不允许"
+- generic: 不允许
+- generic: 发布时间
+- checkbox "立即发布" [checked]
+- generic: 立即发布
+- checkbox "定时发布"
+- generic: 定时发布
+- generic: 快速填写
+- button "发布"
+- button "暂存离开"
+- text: 预览视频
+- generic: 预览封面/标题
+- slider
+- generic: "@Eli-Ai"
+- generic: "逛个AI大会，怎么还考上试了？ 10月24日逛观猹大会，看到了AI茶饮、赛博换装、AI拼豆，还有让人会心一笑的Claude周边。顺便参加了一场闭卷AI能力考试，不能用手机，最后考了92分。换你来考，能拿多少分？ #观猹 #观猹大会 #AI #AI考试 #人工智能"
+- generic: 展开
+- generic: Eli-Ai创作的原声 - @Eli-Ai Eli-Ai创作的原声 - @Eli-Ai Eli-Ai创作的原声 - @Eli-Ai
+- generic: Eli-Ai创作的原声 - @Eli-Ai Eli-Ai创作的原声 - @Eli-Ai Eli-Ai创作的原声 - @Eli-Ai
+- paragraph:
+  - text: 作者声明：内容由AI生成
+- generic: 添加音乐
+- button:
+- generic: 重新上传
+- paragraph:
+  - generic: 发文助手
+- paragraph:
+  - text: 快速检测
+- paragraph:
+  - generic: 检测中43%
+- generic: 封面检测通过
+- generic: 暂未发现封面低质问题
+- paragraph:
+- iframe
+- iframe

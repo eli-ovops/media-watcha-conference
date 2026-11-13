@@ -1,0 +1,18 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "stage": "05",
+  "decision": "PASS",
+  "human_review_source": "CurrentuserrequestedpriorVibe千年之后andcontinuingpublicationpreparation;noactuallisteningclaim",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-千年之后换源补充.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-千年之后混音/Manifest.json"
+  ],
+  "remaining_required_work": [],
+  "scope": "Changed-source technical acceptance for nonpublic preparation only",
+  "not_passed": [
+    "Directhearing/continuousAV/userfinalrelease",
+    "cross-platformmusiclicense"
+  ],
+  "publication_authorized": false
+}

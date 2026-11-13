@@ -1,0 +1,13 @@
+{
+  "tool_return": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a70-35e6-7db1-86ac-80a7ce40a9cb\"}"
+      }
+    ],
+    "isError": false
+  },
+  "correction_result": "formal check allowed=true",
+  "note": "Earlier02report remains original before correction; direct-hearing not passed, full production not released."
+}

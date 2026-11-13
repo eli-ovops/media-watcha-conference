@@ -1,0 +1,31 @@
+{
+  "title": "Carefree",
+  "artist": "Kevin MacLeod",
+  "isrc": "USUAN1400037",
+  "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+  "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher_metadata": {
+    "bpm": 96,
+    "duration": "3:25",
+    "instruments": [
+      "Ukulele",
+      "Guitar",
+      "Marimba",
+      "Glockenspiel",
+      "Percussion"
+    ],
+    "feel": [
+      "Bouncy",
+      "Bright",
+      "Calming",
+      "Uplifting"
+    ]
+  },
+  "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/bgm/Carefree-Kevin-MacLeod.mp3",
+  "bytes": 6566713,
+  "sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+  "verified_scope": "Official primary track metadata read via Jina and corroborated native web search; official MP3download HTTP success. Audio not directly listened. No currenthot-chartclaim.",
+  "required_attribution": "Carefree — Kevin MacLeod (incompetech.com). Licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Excerpted, volume adjusted and faded for this video."
+}

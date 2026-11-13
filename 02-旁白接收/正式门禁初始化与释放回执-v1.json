@@ -1,0 +1,36 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "observed_error": "ACTIVE_CONTENT_MISMATCH_OR_UNASSIGNED",
+  "cause": "PMO used per-content summary without initializing formal run before dispatch",
+  "previous_active_content_id": "elden-ring-ai-recap-20261023",
+  "previous_run_hash": "8228a59a0b7c1182f2e8acf24d58cdfc6120e4a6d4cf27ced5d07644fe0d8cbf",
+  "preserve": "Old run and remaining platform/manual blockers stay unchanged; active workflow context follows user-selected Watcha content. No old approval/release is fabricated.",
+  "correction_scope": "Initialize standard run, import actual reviewed topic/material baseline as stage01 only, release stage02 and check. Do not modify guard or release04/publication.",
+  "commands": [
+    {
+      "action": "start",
+      "exit_code": 0,
+      "stdout": "{\"saved\": true, \"active_content\": \"watcha-conference-20261024\"}\n",
+      "stderr": ""
+    },
+    {
+      "action": "import-baseline",
+      "exit_code": 0,
+      "stdout": "{\"saved\": true, \"active_content\": \"watcha-conference-20261024\"}\n",
+      "stderr": ""
+    },
+    {
+      "action": "release",
+      "exit_code": 0,
+      "stdout": "{\"saved\": true, \"active_content\": \"watcha-conference-20261024\"}\n",
+      "stderr": ""
+    },
+    {
+      "action": "check",
+      "exit_code": 0,
+      "stdout": "{\"allowed\": true, \"content\": \"watcha-conference-20261024\", \"stage\": \"02\"}\n",
+      "stderr": ""
+    }
+  ],
+  "old_run_unchanged": true
+}

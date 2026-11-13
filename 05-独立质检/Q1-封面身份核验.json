@@ -1,0 +1,46 @@
+[
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-3x4-1080x1440-v3.png",
+    "sha256": "75c77a0e88c9b681fbf61e2dfab4474a51044214665eafd73bd20f880aa842a5",
+    "sha_match": true,
+    "size": [
+      1080,
+      1440
+    ],
+    "size_match": true,
+    "page_bound": true
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-9x16-1080x1920-v3.png",
+    "sha256": "27e70fd95004e34805189164926f8a089e8d0789318551813319b0c8724fdc83",
+    "sha_match": true,
+    "size": [
+      1080,
+      1920
+    ],
+    "size_match": true,
+    "page_bound": true
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-16x9-1920x1080-v3.png",
+    "sha256": "90667cddf7935b24cc322f51f8bf7e232e484628d1187eef6cee94f340d5f01b",
+    "sha_match": true,
+    "size": [
+      1920,
+      1080
+    ],
+    "size_match": true,
+    "page_bound": true
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-4x3-1440x1080-v3.png",
+    "sha256": "f96ab8348564b4d72a19312c082f7c59621e55e0d1ebd7ad2e2eb352a6d64e5f",
+    "sha_match": true,
+    "size": [
+      1440,
+      1080
+    ],
+    "size_match": true,
+    "page_bound": true
+  }
+]

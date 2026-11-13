@@ -1,0 +1,17 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "05",
+  "decision": "PASS",
+  "human_review_source": "CurrentPMOuser:其他平台就用这个吧。抖音上需要选用已有的热门音频...全平台话题引用观猹",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-BGM补充.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/平台音乐与话题规则-v2.md"
+  ],
+  "remaining_required_work": [],
+  "scope": "TechnicalBGMchangeacceptedforuser-authorizednonpublicpreparation;notdirectAVlisteningapproval",
+  "still_unverified": [
+    "Directhearing/naturalness/precisesync/continuousAV"
+  ],
+  "publication_authorized": false
+}

@@ -1,0 +1,13 @@
+{
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a6f-49ef-7653-934a-4312979fd4e7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_ACCEPTED",
+  "scope": "Cover microtext only; preserve current videoSHA"
+}

@@ -1,0 +1,149 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v2",
+  "stage": "FORMAL_EXPORT_AND_COVERS_READY_FOR_PMO_QA",
+  "preview_base_sha256": "1ec10fc9e497192cd3e2b8bf3d1f9dce93799e792c1ef0475064b77a4bb0deb6",
+  "owner": "04",
+  "spec": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration_seconds": 45.7,
+    "frames": 2742
+  },
+  "source_fps_note": "Video sources are 30fps, duplicated to 60fps container; INT02 motion and new text rendered at delivery resolution; no new source motion detail claimed.",
+  "audio": {
+    "pcm_sha256": "bc6ba0360f9a473ddf3c54d2ab07e6de2961babfa945634a3c3f0d3fad8d5889",
+    "byte_identical_to_rough_v1": true,
+    "final_audio_method": "Copy original AAC packets from rough-v1; no re-encode",
+    "BGM": false,
+    "onsite_sound": "muted",
+    "direct_hearing": "UNKNOWN",
+    "continuous_AV": "NOT_PERFORMED"
+  },
+  "changes": {
+    "R1": "V02 0-3s source crop x200/w404/h720; 3-5.8667s source crop x40. P08 exact INT02-v2 camera-first portrait derivative. Score source crop x90/y1310/w450/h440 preserves actual 92 and passed.",
+    "R2": "27.5-30.1 P05 full materials;30.1-33.5 P05 badge detail;33.5-35.6667 V05 source6-8.1667 atmosphere; then real score. No exam room invented.",
+    "R3": "68px subtitles at1080-wide vs34px at720-wide rough; bottom255px safety margin. Exact timings remain candidates; no false listening pass."
+  },
+  "source_edl": "scene-edl-60fps.json",
+  "voice_edl": "voice-edl.json",
+  "component_proof": "component-manifest.json",
+  "source_kit": "NewsFocus.original.tsx is self-contained; original component has no external styling kit; easing, single-mask, same-camera relation retained in NewsFocusPortrait.tsx.",
+  "gate_receipts": [
+    "qa/suggestion.json",
+    "qa/keyframes.json",
+    "qa/keyframes-with-existing-runtime.json"
+  ],
+  "runtime_note": "Initial keyframes check failed because hard-coded TypeScript path missing; task-local parser-dependency.cjs only resolves that exact dependency to existing installed runtime. Validator/parser unchanged; no install.",
+  "representative": {
+    "path": "representative-v2.mp4",
+    "sha256": "d3b1457debe09ce84d042996a61bf1d55a67d5e6d422c9c88f15d41e58ea22f5",
+    "source_timeline": [
+      20.5,
+      27.5
+    ],
+    "PMO_comparison": "SCOPED_VISUAL_ACCEPTED; PMO-代表段原效果对照-v2.json"
+  },
+  "checked": {
+    "motion": "7 actual native frames including midpoint/settlement/mask/tail inspected",
+    "changed_shots": "6 changed shots head/mid/tail inspected as native images and3 phone grids",
+    "score_and_badge": "actual1080x1920 crops inspected",
+    "representative": "actual export at3 and5.5sec inspected; readable source and subtitles",
+    "full_export": "45.7s,2742frames,1080x1920,60fps; full decode no errors; qa/probe.json and decode.log",
+    "final_visual": "46 one-second samples and15 cuts x3 frames inspected.10 targeted native frames extracted; final21.75/22.35/29sec inspected at native size,12/23/26/29/32/37sec inspected on360px contact. No sampled white flash or clipped focus. Continuous AV NOT_PERFORMED.",
+    "audio": "PCM file byte identical plus demuxed AAC packet hash identical to rough-v1; qa/audio-copy-proof.json",
+    "covers": "4 independently generated layouts; actual final pixel sizes verified; complete generated image and normalized phone-contact inspected; main copy black AI考试, violet92分, black观猹大会.16x9 tiny wrong pedestal year removed via imagegen targeted edit. Platform auto-crop not verified."
+  },
+  "preserve": [
+    "original duration45.7",
+    "original voice master/voice EDL",
+    "unaffected vertical footage source clocks",
+    "no talking-video visuals",
+    "no unknown district subtitle",
+    "no ticket identifier",
+    "no BGM",
+    "no publish"
+  ],
+  "production_record": {
+    "PMO_feedback_batch": 1,
+    "implementation_revision": 1,
+    "component_render_runs": 1,
+    "formal_full_assembly_runs": 1,
+    "failures_resolved": [
+      "scene manifest guide/key ids/reviewer fields",
+      "normalized crop starting at x0",
+      "hardcoded parser dependency path"
+    ],
+    "wall_time": "UNKNOWN",
+    "cover_generation_calls": 5,
+    "next_improvement": "Before next rough export, preview wide media and subtitles at360px width to prevent small center bands."
+  },
+  "cover_manifest": "covers/cover-manifest.json",
+  "actual_model_effort": "UNKNOWN",
+  "pending": [
+    "PMO full-file review",
+    "05 independent QA dispatched by PMO",
+    "direct hearing/naturalness/word alignment",
+    "normal-speed continuous audiovisual acceptance",
+    "user final video and cover approval"
+  ],
+  "outputs": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/watcha-full-v2.mp4",
+      "sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/build_v2.py",
+      "sha256": "f4d63f097cc59ca305274a88440bd425231ca8b21adf6f7af51874d4c38dc66e"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/Motion.tsx",
+      "sha256": "aa4ccf7a24dbdff432f54cc97f79f309f75ac44d76f0b0aff1b22dbeac3ed33d"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/NewsFocusPortrait.tsx",
+      "sha256": "d4622c0c9d2ab12211a0303f50ec0e33d0300a0782264f0156445882699f4b37"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/NewsFocus.original.tsx",
+      "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/render.cjs",
+      "sha256": "17956f1c9b491c717159ea8adecf43942e41349d48a1d39fbf513df1d90cc7cc"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/scene-edl-60fps.json",
+      "sha256": "05c54b8656872406497442ddbecbfd5bdd71396a01f69d57d590ee37d87aeb27"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/voice-edl.json",
+      "sha256": "206cd55a936c05a38db9504f429443bae6f322cfaeb8a0c6f2c4fd757d50c954"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/subtitles-v1.srt",
+      "sha256": "56d6f77ea8dbddbe8a8d2d40a3b9fb3001ec51a59db42ca36c0d890286a1dd1b"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/titles.ass",
+      "sha256": "385491894007c2a76a9f68ae01ed558fad8a947be6fd6136a05c3697149d9e5c"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/labels.json",
+      "sha256": "f18bec4d61abcf7cd21b0b8383fae0592df59acd82f82c55a870cbea92705c2e"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/component-manifest.json",
+      "sha256": "b3b8036af672aa7de3979539f36b33907f24b03e586ab01da9ac36a6454e870e"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-manifest.json",
+      "sha256": "df5410f5d033bad4c3236f64981151dbbe3ef9eb0daf5d0427fe361ea113aeeb"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/prompts.json",
+      "sha256": "41172f8a1ce0200f877649ee307d061d191911cdff64869960bcf779f1b71a23"
+    }
+  ]
+}

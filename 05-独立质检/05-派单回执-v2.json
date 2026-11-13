@@ -1,0 +1,19 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "stage": "05",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a79-f636-7823-9350-3c5f7526e6c7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "dispatch": "TOOL_ACCEPTED",
+  "owner_received": "UNKNOWN"
+}

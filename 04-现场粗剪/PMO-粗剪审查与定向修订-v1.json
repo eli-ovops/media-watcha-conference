@@ -1,0 +1,50 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "rough-v1",
+  "reviewer": "PMO",
+  "bound_sha256": "1ec10fc9e497192cd3e2b8bf3d1f9dce93799e792c1ef0475064b77a4bb0deb6",
+  "decision": "ROUGH_STRUCTURE_ACCEPTED_TARGETED_VISUAL_REWORK_REQUIRED",
+  "evidence_read": [
+    "Manifest.json",
+    "scene-edl.json",
+    "labels.json",
+    "README.md",
+    "qa/sec-contact-1.jpg",
+    "qa/sec-contact-2.jpg",
+    "qa/sec-22.jpg",
+    "qa/sec-26.jpg",
+    "qa/sec-37.jpg"
+  ],
+  "checked_scope": "Full timeline by sampled actual export images and source-clock scene map; SHA verified. No continuous playback or direct hearing claimed.",
+  "findings": [
+    {
+      "id": "R1",
+      "range": "8.5-11.5,20.5-24.5,35.6667-43.3667",
+      "problem": "Horizontal media/score shown as small central bands with large dead space; focus and labels weak at phone scale.",
+      "expected": "Content-aware portrait treatment and true source focus; protect subjects/text. Photo framing can use accurate mature Fred camera/focus components; avoid arbitrary enlarged redraw."
+    },
+    {
+      "id": "R2",
+      "range": "27.5-35.6667",
+      "problem": "Exam narration sits on unrelated lengthy stage footage, reducing connection to first-person exam story.",
+      "expected": "Use badge/booklet/map/score-context bridge and a brief scene atmosphere; no fabricated exam footage."
+    },
+    {
+      "id": "R3",
+      "range": "labels/subtitles throughout",
+      "problem": "Display text in supplied phone-size samples appears small; crude candidate subtitles are not final synced text.",
+      "expected": "Proper phone-scale hierarchy and readable labels; no internal unknown placeholders; precise timing remains listening-dependent."
+    }
+  ],
+  "preserve": [
+    "voice master and voice source EDL exactly",
+    "45.7second total unless genuine reading benefit warrants bounded local retiming; no new hard duration",
+    "no-face/no-BGM/userfacts/P08-vsP09 distinction",
+    "unaffected real vertical shots"
+  ],
+  "outstanding": [
+    "Supported direct hearing and continuous audiovisual naturalness remain unverified; final signoff not granted."
+  ],
+  "next_owner": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "next_scope": "Targeted visual revision, representative comparison before final packaging and1080x1920/60fps export; same Owner no independent duplication"
+}

@@ -1,0 +1,51 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "coordinate_system": "seconds from original audio/video, voice timeline is compact audio only",
+  "duration": 26.7,
+  "segments": [
+    {
+      "id": "A03",
+      "audio": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A03-original.wav",
+      "source_video": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/A03-source.mp4",
+      "source_in": 0,
+      "source_out": 8.5,
+      "voice_in": 0,
+      "voice_out": 8.5,
+      "speed": 1,
+      "reason": "完整有效表达，仅收检测到持续低电平的尾空白并留约0.28—0.33秒余量；头部早期瞬态不确定，保留"
+    },
+    {
+      "id": "A01",
+      "audio": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A01-original.wav",
+      "source_video": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/A01-source.mp4",
+      "source_in": 0,
+      "source_out": 18.2,
+      "voice_in": 8.5,
+      "voice_out": 26.7,
+      "speed": 1,
+      "reason": "完整有效表达，仅收检测到持续低电平的尾空白并留约0.28—0.33秒余量；头部早期瞬态不确定，保留"
+    }
+  ],
+  "unused": [
+    {
+      "id": "A02",
+      "source_in": 0,
+      "source_out": 4.094666666666667,
+      "enabled": false,
+      "reason": "ASR为未完成起句“全场我觉得我……”；与A01开头主题重复，暂不入master，原音完整保留，待听核"
+    }
+  ],
+  "deleted": [
+    {
+      "id": "A03",
+      "source_in": 8.5,
+      "source_out": 8.852
+    },
+    {
+      "id": "A01",
+      "source_in": 18.2,
+      "source_out": 18.750666666666667
+    }
+  ],
+  "full_film_timeline": "由04完整粗剪再插现场留白，不将compact voice时间冒称整片时间"
+}

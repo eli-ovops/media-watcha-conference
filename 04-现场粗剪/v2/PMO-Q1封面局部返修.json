@@ -1,0 +1,12 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "reason": "05 original Q1 read: background generated microtext malformed, exact limited cover repair only",
+  "reviewed_file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-v2.md",
+  "protect": [
+    "currentMP4SHA6c3f10…ed0a8",
+    "allunaffectedcovers",
+    "voice/subtitles/clock/motion"
+  ],
+  "next": "04Q1then05changed-cover-only supplement"
+}

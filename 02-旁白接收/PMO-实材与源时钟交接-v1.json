@@ -1,0 +1,17 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "03",
+  "decision": "PASS",
+  "accepted_scope": "Merged02/03 existing material handoff reviewed now; no separate03 execution fabricated",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/素材清单.json",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/实际旁白与粗剪交接-v1.1.md"
+  ],
+  "remaining_required_work": [],
+  "deferred_checks_before_final_signoff": [
+    "Actual direct listening of A03/A01/A02, naturalness and exact draft word timing; source audio protected during internal roughcut.",
+    "District name unknown: use activity title screen label in roughcut instead of inventing subtitle."
+  ],
+  "permitted_next": "Internal full roughcut only with actual voice unchanged and explicit unchecked audio; no finished-video PASS"
+}

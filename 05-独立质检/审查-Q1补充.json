@@ -1,0 +1,18 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "cover_revision": "v3-Q1",
+  "issue": "Q1",
+  "status": "CLOSED",
+  "decision": "SCOPED_COVER_RECHECK_ACCEPTED",
+  "new_must_fix": [],
+  "cover_sha_size_page_binding": "MATCH",
+  "manifest_cover_and_report_hash": "MATCH",
+  "video_rechecked": false,
+  "unchanged_limits": [
+    "direct hearing UNKNOWN",
+    "continuous visual/AV UNKNOWN",
+    "precise sync UNKNOWN",
+    "user review PENDING"
+  ],
+  "report": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-Q1补充.md"
+}

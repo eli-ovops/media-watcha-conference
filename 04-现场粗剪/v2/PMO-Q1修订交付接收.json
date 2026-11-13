@@ -1,0 +1,14 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "04",
+  "decision": "PASS",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/q1/Q1-report.json",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/phone-contact-v3.png"
+  ],
+  "remaining_required_work": [],
+  "accepted_scope": "04Q1repair production delivered;05localcoververificationnext;video/audio unchanged",
+  "video_hash_verified_unchanged": true,
+  "pending_final": "UserfullAVhearingandacceptance"
+}

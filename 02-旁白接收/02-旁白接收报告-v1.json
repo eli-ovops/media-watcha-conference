@@ -1,0 +1,92 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "owner_thread": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "status": "LOCAL_MATERIALS_READY_GATE_MISMATCH_AND_LISTENING_PENDING",
+  "stage_complete": false,
+  "gate": {
+    "allowed": false,
+    "reason": "ACTIVE_CONTENT_MISMATCH_OR_UNASSIGNED",
+    "reported_to_pmo": true,
+    "tool_receipt": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "source_sha_check": "3/3 match exact archive manifest",
+  "audio": {
+    "inventory": "audio-inventory-v1.json",
+    "original_count": 3,
+    "raw_total_seconds": 31.697333333333333,
+    "sample_rate": 48000,
+    "channels": 1,
+    "pcm_bits": 24,
+    "master": "audio/voice-master-v1.wav",
+    "master_seconds": 26.7,
+    "order": [
+      "A03",
+      "A01"
+    ],
+    "unused": "A02 full original kept, incomplete opening ASR candidate",
+    "speed": 1,
+    "gain_db": 0,
+    "loudness_lufs": -22.1,
+    "true_peak_dbfs": -3,
+    "lra_lu": 5.6
+  },
+  "transcription": {
+    "full_inputs": 3,
+    "engine": "existing whisper.cpp base local CPU",
+    "raw": "asr/A01.json A02.json A03.json",
+    "corrected": "逐字稿与字幕映射-v1.json",
+    "draft_srt": "字幕草稿-v1.srt",
+    "cues": 12,
+    "precision": "ASR segments and semantic candidate boundaries, not word aligned",
+    "pending_words": [
+      "最有意思",
+      "西湖区"
+    ],
+    "no_script_backfill": true
+  },
+  "hearing": {
+    "actual_test": "A01 source1—6sec, audio/listening-capability-5s.mp3",
+    "response": "audio content omitted because you do not support audio input",
+    "direct_listening": false,
+    "naturalness": "PENDING",
+    "action_owner": "PMO assigns supported direct-listening responsibility before sound signoff; no new uploads or paid tool"
+  },
+  "handoff": "实际旁白与粗剪交接-v1.md",
+  "rules": [
+    "ELI-MEDIA-AGENTS-20261024-v4",
+    "CODEX-MEDIA-20261024-v3",
+    "ELI-PRODUCTION-20261024-v5",
+    "ELI-REWORK-20261024-v2",
+    "ROUTING-2026-10-24-v5",
+    "TOKEN-BUDGET-2026-10-24-v1"
+  ],
+  "route": {
+    "target": "gpt-6.1-sol/medium",
+    "actual_model": "UNKNOWN",
+    "actual_effort": "UNKNOWN",
+    "actual_speed": "UNKNOWN"
+  },
+  "scope": "Only this intake folder; no user face, BGM, full film, downstream dispatch, state edits, installations, uploads, paid APIs, old content reprocessing, cleanup.",
+  "file_inventory": "Three archive MP4 preserved; audio/ original WAV/master/capability MP3/parameters/loudness; asr/ 16k WAV, JSON/TXT/SRT/logs and silence logs; build_handoff_v1.py retained for reproduction; all needed for review, no cleanup.",
+  "report": {
+    "send": "SUCCESS",
+    "tool_receipt": {"content":[{"type":"text","text":"{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"}],"isError":false},
+    "pmo_received": "UNKNOWN",
+    "pmo_accepted": "PENDING"
+  },
+  "output_hashes": {
+    "audio/voice-master-v1.wav": "9ab8b943d5ba745cd7edc700342926ad507b871a221b1e7f58b97c0d4b466b52",
+    "字幕草稿-v1.srt": "a388f78b57cee329762053b340ac856770aef8e043e6d282369fd589aeaef170",
+    "保守EDL-v1.json": "1f971cd1172845615c0f11f8527de3d67749cd12dd9f87426679c7c85ff6f20a",
+    "逐字稿与字幕映射-v1.json": "9611442a43fca5cf1b9b3a0963a9d73a5143638374a9ff1ee68ed0b450b5e39a",
+    "实际旁白与粗剪交接-v1.md": "6071cead1347602362949cc8624884b6d3760224525c2a1ac7930a757e48d898"
+  }
+}

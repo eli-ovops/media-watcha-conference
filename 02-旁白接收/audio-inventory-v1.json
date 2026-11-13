@@ -1,0 +1,35 @@
+[
+  {
+    "id": "A01",
+    "source": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/A01-source.mp4",
+    "source_sha256": "f832bd1f2df114ee278c018f15acbe8d91b1298ed6001c5274e52c05ad68305e",
+    "audio": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A01-original.wav",
+    "audio_sha256": "0bfe320b95701a377e7c19d35a8d4d093f26b057af913cd513aec1e4457bca97",
+    "duration": 18.750666666666667,
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 3
+  },
+  {
+    "id": "A02",
+    "source": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/A02-source.mp4",
+    "source_sha256": "700f0fdbdd4c19c26d6057f577b43d8d072abc322ab9754a8eb7aeff42f48b81",
+    "audio": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A02-original.wav",
+    "audio_sha256": "7d580a9e6ee419e87d692cf2910a77294af13429578eba7a84d977966ac48d56",
+    "duration": 4.094666666666667,
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 3
+  },
+  {
+    "id": "A03",
+    "source": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/A03-source.mp4",
+    "source_sha256": "2681e3f701f66715779c83ed257efa37aa71770e01453f11438540dff5e723f6",
+    "audio": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A03-original.wav",
+    "audio_sha256": "0c15069747dc60bac3f3d251c61cebcc5ee471e1da3760b3e03deb8f421bf6c9",
+    "duration": 8.852,
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 3
+  }
+]

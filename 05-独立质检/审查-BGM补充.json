@@ -1,0 +1,16 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v3-bgm",
+  "decision": "SCOPED_BGM_TECHNICAL_REVIEW_NO_NEW_MUST_FIX",
+  "must_fix": [],
+  "existing_packet_evidence_compared": true,
+  "packet_count": 2742,
+  "packets_identical": true,
+  "final_lufs": -21.01,
+  "final_dbtp": -2.85,
+  "direct_listening": "UNKNOWN",
+  "continuous_av": "UNKNOWN",
+  "user_review": "PENDING",
+  "scope": "Non-public preparation candidate for other active platforms; not Douyin",
+  "report": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-BGM补充.md"
+}

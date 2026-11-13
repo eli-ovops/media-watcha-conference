@@ -1,0 +1,30 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "decision": "SCOPED_QA_ACCEPTED_WAIT_USER_AV_FINAL_REVIEW",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-v2.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-Q1补充.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/phone-contact-v3.png"
+  ],
+  "video": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/watcha-full-v2.mp4",
+  "video_sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "covers": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-manifest.json",
+  "cover_q1": "CLOSED_NO_NEW_MUST_FIX",
+  "user_review": "PENDING",
+  "pending": [
+    "Direct hearing/naturalness/word-level sync",
+    "Normal-speed continuous visual and fullAV",
+    "Actualplatformmusicandcropwhenprepared"
+  ],
+  "publication_authorized": false,
+  "stage05_formal_approval": "NOT_GRANTED_WITHOUT_USER_FINAL_REVIEW",
+  "next": "Userwatch/listentocomplete45.7secondcandidateandreviewcover;04localrevisioniffeedback;06notreleased",
+  "iteration": {
+    "pmo_visual_feedback_batches": 1,
+    "independent_cover_repair_batches": 1,
+    "user_revision_batches": 0,
+    "wall_time": "UNKNOWN",
+    "next_one_improvement": "Before rough export, inspect wide/photo focus and subtitle sizes at360pxphonewidth;reuseasroughplancheck."
+  }
+}

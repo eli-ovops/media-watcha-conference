@@ -1,0 +1,121 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"info\": {\n    \"path\": \"/Users/USER/Downloads/55737de88d63f8e39796ef97dffe8bb5.mp4\",\n    \"source\": \"/Users/USER/Downloads/55737de88d63f8e39796ef97dffe8bb5.mp4\",\n    \"sourceKind\": \"local\",\n    \"durationSec\": 5.866666666666666,\n    \"width\": 1280,\n    \"height\": 720,\n    \"fps\": 30,\n    \"videoCodec\": \"hevc\",\n    \"audioCodec\": \"aac\",\n    \"hasAudio\": true,\n    \"hasVideo\": true,\n    \"bitrate\": 849169,\n    \"sizeBytes\": 622724,\n    \"formatName\": \"mov,mp4 (AVFoundation adapter)\"\n  },\n  \"transcript\": {\n    \"segments\": [],\n    \"language\": \"zh\",\n    \"source\": \"whisper.cpp\",\n    \"fullText\": \"(中文字幕)\"\n  },\n  \"frames\": [\n    {\n      \"index\": 0,\n      \"timeSec\": 0,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    },\n    {\n      \"index\": 1,\n      \"timeSec\": 0.978,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    },\n    {\n      \"index\": 2,\n      \"timeSec\": 1.956,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    },\n    {\n      \"index\": 3,\n      \"timeSec\": 2.933,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    },\n    {\n      \"index\": 4,\n      \"timeSec\": 3.911,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    },\n    {\n      \"index\": 5,\n      \"timeSec\": 4.889,\n      \"path\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg\",\n      \"mimeType\": \"image/jpeg\",\n      \"width\": 0,\n      \"height\": 0\n    }\n  ],\n  \"timeline\": [\n    {\n      \"timeSec\": 0,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #0 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg\"\n    },\n    {\n      \"timeSec\": 0.978,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #1 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg\"\n    },\n    {\n      \"timeSec\": 1.956,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #2 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg\"\n    },\n    {\n      \"timeSec\": 2.933,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #3 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg\"\n    },\n    {\n      \"timeSec\": 3.911,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #4 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg\"\n    },\n    {\n      \"timeSec\": 4.889,\n      \"kind\": \"frame\",\n      \"text\": \"Frame #5 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg)\",\n      \"framePath\": \"/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg\"\n    }\n  ],\n  \"warnings\": [\n    \"ASR is machine-generated and may contain wrong words; timestamps are approximate, not a prosody assessment.\",\n    \"Rejected 1 ASR timestamp segment(s) outside valid duration 5.867s. fullText is preserved without assigning invented timestamps.\"\n  ],\n  \"detail\": \"standard\",\n  \"elapsedMs\": 915,\n  \"ocrHitCount\": 0,\n  \"summary\": \"0:05 · 1280×720 · 30fps · has audio\\nSpeech (whisper.cpp, 0 segs): “(中文字幕)”\\n6 keyframe(s) extracted\\n2 warning(s)\",\n  \"sidecarPath\": null\n}"
+    }
+  ],
+  "structuredContent": {
+    "frames": [
+      {
+        "index": 0,
+        "timeSec": 0,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "index": 1,
+        "timeSec": 0.978,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "index": 2,
+        "timeSec": 1.956,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "index": 3,
+        "timeSec": 2.933,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "index": 4,
+        "timeSec": 3.911,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "index": 5,
+        "timeSec": 4.889,
+        "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg",
+        "mimeType": "image/jpeg"
+      }
+    ],
+    "inlineCount": 0,
+    "inlineIndices": [],
+    "summary": "0:05 · 1280×720 · 30fps · has audio\nSpeech (whisper.cpp, 0 segs): “(中文字幕)”\n6 keyframe(s) extracted\n2 warning(s)",
+    "info": {
+      "path": "/Users/USER/Downloads/55737de88d63f8e39796ef97dffe8bb5.mp4",
+      "source": "/Users/USER/Downloads/55737de88d63f8e39796ef97dffe8bb5.mp4",
+      "sourceKind": "local",
+      "durationSec": 5.866666666666666,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "videoCodec": "hevc",
+      "audioCodec": "aac",
+      "hasAudio": true,
+      "hasVideo": true,
+      "bitrate": 849169,
+      "sizeBytes": 622724,
+      "formatName": "mov,mp4 (AVFoundation adapter)"
+    },
+    "ocrHitCount": 0,
+    "ocr": [],
+    "transcript": {
+      "source": "whisper.cpp",
+      "language": "zh",
+      "segmentCount": 0,
+      "fullText": "(中文字幕)",
+      "segments": []
+    },
+    "warnings": [
+      "ASR is machine-generated and may contain wrong words; timestamps are approximate, not a prosody assessment.",
+      "Rejected 1 ASR timestamp segment(s) outside valid duration 5.867s. fullText is preserved without assigning invented timestamps."
+    ],
+    "detail": "standard",
+    "elapsedMs": 915,
+    "timeline": [
+      {
+        "timeSec": 0,
+        "kind": "frame",
+        "text": "Frame #0 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg"
+      },
+      {
+        "timeSec": 0.978,
+        "kind": "frame",
+        "text": "Frame #1 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg"
+      },
+      {
+        "timeSec": 1.956,
+        "kind": "frame",
+        "text": "Frame #2 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg"
+      },
+      {
+        "timeSec": 2.933,
+        "kind": "frame",
+        "text": "Frame #3 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg"
+      },
+      {
+        "timeSec": 3.911,
+        "kind": "frame",
+        "text": "Frame #4 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg"
+      },
+      {
+        "timeSec": 4.889,
+        "kind": "frame",
+        "text": "Frame #5 (/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg)",
+        "framePath": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg"
+      }
+    ],
+    "sidecarPath": null
+  }
+}

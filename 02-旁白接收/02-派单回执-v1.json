@@ -1,0 +1,21 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "stage": "02",
+  "target_thread_id": "01a11a70-35e6-7db1-86ac-80a7ce40a9cb",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "tool_return": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a70-35e6-7db1-86ac-80a7ce40a9cb\"}"
+      }
+    ],
+    "isError": false
+  },
+  "dispatch_state": "TOOL_ACCEPTED",
+  "owner_received": "UNKNOWN",
+  "pmo_accepted": "PENDING"
+}

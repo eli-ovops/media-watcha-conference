@@ -1,0 +1,133 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "owner": "04",
+  "version": "v4-qiannian",
+  "status": "READY_FOR_PMO_USER_PREVIEW",
+  "video_input": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/watcha-full-v2.mp4",
+  "video_input_sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "music_input": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/千年之后音源线索/ai-funnel-vibe-tiktok-own-download-20261024.mp4",
+  "music_sha256": "0a7532353b1ea57ba443e3eface9d7027680eb83600b1e1468199a6507a2100d",
+  "output": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-千年之后混音/watcha-full-v4-qiannian.mp4",
+  "output_sha256": "420a3b9c1f1bfbfe117d91936c653f6d29aa08b507ddce6c770ad2b195adc5be",
+  "duration": 45.7,
+  "music_source_range": [
+    0,
+    45.7
+  ],
+  "gain_db": {
+    "narration": -24.29,
+    "middle": -15.29
+  },
+  "envelope": {
+    "low": [
+      0,
+      8.5
+    ],
+    "rise": [
+      8.5,
+      9.1
+    ],
+    "high": [
+      9.1,
+      26.9
+    ],
+    "fall": [
+      26.9,
+      27.5
+    ],
+    "low_end": [
+      27.5,
+      45.7
+    ],
+    "fade_in": [
+      0,
+      0.4
+    ],
+    "fade_out": [
+      44.5,
+      45.7
+    ]
+  },
+  "voice": "Original decoded mono samples duplicated into stereo at unity; no gain, speed, denoise or time change; final AAC re-encoded",
+  "measurement": {
+    "music_source": {
+      "input_i": "-9.71",
+      "input_tp": "0.96",
+      "input_lra": "2.80",
+      "input_thresh": "-19.71",
+      "output_i": "-24.48",
+      "output_tp": "-14.02",
+      "output_lra": "2.40",
+      "output_thresh": "-34.48",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.52"
+    },
+    "voice_source": {
+      "input_i": "-22.37",
+      "input_tp": "-3.04",
+      "input_lra": "6.30",
+      "input_thresh": "-33.28",
+      "output_i": "-26.08",
+      "output_tp": "-7.33",
+      "output_lra": "5.10",
+      "output_thresh": "-36.98",
+      "normalization_type": "dynamic",
+      "target_offset": "1.08"
+    },
+    "final_encoded_audio": {
+      "input_i": "-21.03",
+      "input_tp": "-2.87",
+      "input_lra": "8.70",
+      "input_thresh": "-31.51",
+      "output_i": "-25.81",
+      "output_tp": "-6.41",
+      "output_lra": "7.60",
+      "output_thresh": "-36.16",
+      "normalization_type": "dynamic",
+      "target_offset": "0.81"
+    },
+    "middle_10_26": {
+      "input_i": "-25.44",
+      "input_tp": "-14.86",
+      "input_lra": "2.90",
+      "input_thresh": "-35.44",
+      "output_i": "-24.33",
+      "output_tp": "-13.93",
+      "output_lra": "1.90",
+      "output_thresh": "-34.33",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.67"
+    }
+  },
+  "video_packets_identical": true,
+  "packet_count": 2742,
+  "video_packet_fields": [
+    "pts",
+    "dts",
+    "duration",
+    "size",
+    "data_hash"
+  ],
+  "direct_listening": "UNKNOWN",
+  "continuous_AV": "NOT_PERFORMED",
+  "covers": "Existing v3 unchanged; outside this task",
+  "target_model_effort": "Astra medium",
+  "actual_model_effort": "UNKNOWN",
+  "rules": [
+    "AGENTS-v4",
+    "workflow-v3",
+    "production-v5",
+    "rework-v2",
+    "ROUTING-2026-10-24-v5",
+    "TOKEN-BUDGET-2026-10-24-v1"
+  ],
+  "permission": "Task and formal release receipt in this directory; user request overrides prior no-BGM",
+  "source_identity": "source-identity.json",
+  "license": "UNKNOWN; no cross-platform grant inferred; not CC BY",
+  "historical_youtube": "Global block reported by PMO; do not circumvent",
+  "source_type": "Audio from own recovered prior TikTok video, not isolated studio music",
+  "publishing": "NOT_PERFORMED",
+  "temporary_files": "None; all files in this directory are task inputs, source, output or retained verification evidence",
+  "actual_audio_duration_seconds": 45.674,
+  "voice_measurement_reused": "../04-BGM混音/voice-source-measure.log; input SHA unchanged"
+}

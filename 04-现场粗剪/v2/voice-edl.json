@@ -1,0 +1,45 @@
+{
+  "master": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/voice-master-v1.wav",
+  "master_sha256": "9ab8b943d5ba745cd7edc700342926ad507b871a221b1e7f58b97c0d4b466b52",
+  "rate": 1,
+  "gain_db": 0,
+  "segments": [
+    {
+      "original": "A03",
+      "original_seconds": [
+        0,
+        8.5
+      ],
+      "master_seconds": [
+        0,
+        8.5
+      ],
+      "timeline_seconds": [
+        0,
+        8.5
+      ]
+    },
+    {
+      "silence_seconds": [
+        8.5,
+        27.5
+      ]
+    },
+    {
+      "original": "A01",
+      "original_seconds": [
+        0,
+        18.2
+      ],
+      "master_seconds": [
+        8.5,
+        26.7
+      ],
+      "timeline_seconds": [
+        27.5,
+        45.7
+      ]
+    }
+  ],
+  "pcm_segments_exact": true
+}

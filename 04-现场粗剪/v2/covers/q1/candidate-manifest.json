@@ -1,0 +1,82 @@
+[
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-3x4-1080x1440-v3.png",
+    "sha256": "75c77a0e88c9b681fbf61e2dfab4474a51044214665eafd73bd20f880aa842a5",
+    "size": [
+      1080,
+      1440
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-678aaa7c-0881-4829-bb62-96d762df743c.png",
+    "original_size": [
+      1086,
+      1448
+    ],
+    "method": "Built-in imagegen local cleanup; proportional Lanczos normalization and white padding; no stretch or crop",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING_PMO_05_USER",
+    "previous_file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-3x4-1080x1440-v2.png",
+    "previous_sha256": "8e7f7ecf53c66a9e6370990be3500e767de8cf6336b88e734d543834353acb1d",
+    "revision": "Q1-v3",
+    "prompts": "q1/prompts.json"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-9x16-1080x1920-v3.png",
+    "sha256": "27e70fd95004e34805189164926f8a089e8d0789318551813319b0c8724fdc83",
+    "size": [
+      1080,
+      1920
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-177fd78f-a774-4b54-a7d0-c2535357c9d6.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "method": "Built-in imagegen local cleanup; proportional Lanczos normalization and white padding; no stretch or crop",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING_PMO_05_USER",
+    "previous_file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-9x16-1080x1920-v2.png",
+    "previous_sha256": "067f4557966b111624029852c593ad3831b1eeb35e64004a36acbf873444d303",
+    "revision": "Q1-v3",
+    "prompts": "q1/prompts.json"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-16x9-1920x1080-v3.png",
+    "sha256": "90667cddf7935b24cc322f51f8bf7e232e484628d1187eef6cee94f340d5f01b",
+    "size": [
+      1920,
+      1080
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-bf306d65-ef6b-4a16-ac72-4d8e11f5ac36.png",
+    "original_size": [
+      1672,
+      941
+    ],
+    "method": "Built-in imagegen local cleanup; proportional Lanczos normalization and white padding; no stretch or crop",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING_PMO_05_USER",
+    "previous_file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-16x9-1920x1080-v2.png",
+    "previous_sha256": "da9773763fdd15fddddacfe30c1ce8cbe041825ab548d748cbc778224ec51db5",
+    "revision": "Q1-v3",
+    "prompts": "q1/prompts.json"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-4x3-1440x1080-v3.png",
+    "sha256": "f96ab8348564b4d72a19312c082f7c59621e55e0d1ebd7ad2e2eb352a6d64e5f",
+    "size": [
+      1440,
+      1080
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-2a695796-fc4e-4ea7-ae72-6654e6238799.png",
+    "original_size": [
+      1448,
+      1086
+    ],
+    "method": "Built-in imagegen local cleanup; proportional Lanczos normalization and white padding; no stretch or crop",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING_PMO_05_USER",
+    "previous_file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-4x3-1440x1080-v2.png",
+    "previous_sha256": "1db3cbe4b6d866a5c463e4b241030d921f91d4dc3bf758ec067d502f94f2a701",
+    "revision": "Q1-v3",
+    "prompts": "q1/prompts.json"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "04",
+  "decision": "PASS",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-BGM混音/Manifest.json",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-BGM混音/source-license.json"
+  ],
+  "remaining_required_work": [],
+  "scope": "BGMmixproductionandsource/measurementpacketproofreceived;subjectivelisteningnotclaimed",
+  "output_sha_verified": "e5ec6ba3bfb967c37da5ada95448cf828d158085b3974f0e41079da32bb93330",
+  "next": "05changescopeonly;oldvisualQAretained",
+  "user_latest": "Carefreeotherplatforms;Douyinnativepopularaudio;allplatformWatchatopics"
+}

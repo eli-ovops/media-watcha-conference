@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"path\": \"/Users/USER/Downloads/32ad7300b84096bc247ec0eaa46a1814.mp4\",\n  \"source\": \"/Users/USER/Downloads/32ad7300b84096bc247ec0eaa46a1814.mp4\",\n  \"sourceKind\": \"local\",\n  \"durationSec\": 2.1333333333333333,\n  \"width\": 1280,\n  \"height\": 720,\n  \"fps\": 30,\n  \"videoCodec\": \"hevc\",\n  \"audioCodec\": \"aac\",\n  \"hasAudio\": true,\n  \"hasVideo\": true,\n  \"bitrate\": 1496598,\n  \"sizeBytes\": 399093,\n  \"formatName\": \"mov,mp4 (AVFoundation adapter)\",\n  \"warnings\": []\n}"
+    }
+  ],
+  "structuredContent": {
+    "path": "/Users/USER/Downloads/32ad7300b84096bc247ec0eaa46a1814.mp4",
+    "source": "/Users/USER/Downloads/32ad7300b84096bc247ec0eaa46a1814.mp4",
+    "sourceKind": "local",
+    "durationSec": 2.1333333333333333,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "videoCodec": "hevc",
+    "audioCodec": "aac",
+    "hasAudio": true,
+    "hasVideo": true,
+    "bitrate": 1496598,
+    "sizeBytes": 399093,
+    "formatName": "mov,mp4 (AVFoundation adapter)",
+    "warnings": []
+  }
+}

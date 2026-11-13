@@ -1,0 +1,19 @@
+{
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a7f-9a85-7481-9e6c-75f11280ba56\"}"
+      }
+    ],
+    "isError": false
+  },
+  "dispatch": "TOOL_ACCEPTED",
+  "owner_received": "UNKNOWN",
+  "requested_model": "gpt-6-sol",
+  "requested_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN",
+  "reason": "Prior06gpt-6.1-sol unsupported;authorizedfallbackcandidateonly",
+  "publication_authorized": false
+}

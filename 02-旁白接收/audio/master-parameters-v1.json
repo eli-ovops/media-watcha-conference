@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/Users/USER/.local/bin/ffmpeg",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A03-original.wav",
+    "-i",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/A01-original.wav",
+    "-filter_complex",
+    "[0:a]atrim=start=0:end=8.5,asetpts=PTS-STARTPTS[a0];[1:a]atrim=start=0:end=18.2,asetpts=PTS-STARTPTS[a1];[a0][a1]concat=n=2:v=0:a=1[out]",
+    "-map",
+    "[out]",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-c:a",
+    "pcm_s24le",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/02-旁白接收/audio/voice-master-v1.wav"
+  ],
+  "speed": 1,
+  "gain_db": 0,
+  "denoise": false,
+  "limiter": false,
+  "role": "voice only no BGM"
+}

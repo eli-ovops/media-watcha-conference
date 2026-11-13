@@ -1,0 +1,15 @@
+{
+  "threadId": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a6f-49ef-7653-934a-4312979fd4e7\"}"
+      }
+    ],
+    "isError": false
+  },
+  "state": "TOOL_ACCEPTED",
+  "owner_received": "UNKNOWN",
+  "scope": "R1/R2/R3 same-owner revision, representative compare then formal export; no downstream release"
+}

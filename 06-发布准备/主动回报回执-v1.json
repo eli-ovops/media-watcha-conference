@@ -1,0 +1,18 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "source_owner_thread_id": "01a11a7f-9a85-7481-9e6c-75f11280ba56",
+  "destination_pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "destination_host_id": "local",
+  "sent_at_local": "2026-10-24 21:25 CST",
+  "send_tool": "mcp__codex_app__send_message_to_thread",
+  "send_tool_result": {
+    "content": [{"type": "text", "text": "{\"threadId\":\"01a11194-c40d-7bf0-8396-5bb5d6449444\"}"}],
+    "isError": false
+  },
+  "pmo_received_or_accepted": "UNKNOWN",
+  "report_path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/抖音待发准备与BGM回执-v1.md",
+  "target_model": "gpt-6-sol",
+  "target_effort": "medium",
+  "actual_model": "UNKNOWN",
+  "actual_effort": "UNKNOWN"
+}

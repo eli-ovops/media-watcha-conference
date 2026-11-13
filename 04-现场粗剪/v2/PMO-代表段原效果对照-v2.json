@@ -1,0 +1,36 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v2-representative",
+  "decision": "REPRESENTATIVE_SCOPED_VISUAL_ACCEPTED_CONTINUE_FORMAL",
+  "scope": "20.5-27.5sec board focus to bag",
+  "evidence_read": [
+    "component-manifest.json",
+    "NewsFocus.original.tsx vs NewsFocusPortrait.tsx diff",
+    "qa/motion-0.png",
+    "qa/motion-75.png",
+    "qa/motion-110.png",
+    "qa/representative-3.png",
+    "qa/representative-5.5.png",
+    "prepared/11-P05.png",
+    "prepared/13-P13.png",
+    "qa/PMO-source-3.2.png from exact INT02-2-preview.mp4"
+  ],
+  "preserved": "Exact full source camera-group and single aperture/settlement curve; differences limited portrait stage geometry, safe ROI and current source/time parameters. Actual P08 sticker pixels remain unchanged.",
+  "improvements": [
+    "Claude label and red/green sticker field enlarged and contained; sampled midpoint/final focus not clipped",
+    "Bag text readable, not confused with actual account suspension",
+    "Final representative subtitle larger than rough",
+    "Badge and actual92/through crop fit exam content and exclude ticket number"
+  ],
+  "not_checked": [
+    "Normal-speed continuous motion/AV",
+    "Direct hearing and naturalness/word sync"
+  ],
+  "next": "Same04continue formal full movie1080x1920/60fps, preserve voice; no extra user representative approval; final actual artifacts must be checked.",
+  "pmo_created_evidence": [
+    {
+      "path": "qa/PMO-source-3.2.png",
+      "purpose": "Exact source preview original-frame comparison at3.2sec; retain with review evidence"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tool_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"threadId\":\"01a11a7f-9a85-7481-9e6c-75f11280ba56\"}"
+      }
+    ],
+    "isError": false
+  },
+  "status": "TOOL_ACCEPTED",
+  "scope": "Exactpriortrackrecoveryandunfinishednonpublicprep",
+  "source_status": "Oldlocalpathmissing",
+  "youtube_history": "KnownpriorGLOBAL_BLOCK;nocircumvention",
+  "publication_authorized": false
+}

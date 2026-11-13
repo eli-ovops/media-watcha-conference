@@ -1,0 +1,12 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "report": "07-三站发送回执-v1.json",
+  "destination_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "host_id": "local",
+  "sent_at": "2026-10-25T13:14:08+08:00",
+  "tool_response": {
+    "threadId": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+    "isError": false
+  },
+  "pmo_received_or_accepted": "UNKNOWN"
+}

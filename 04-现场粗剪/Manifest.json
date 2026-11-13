@@ -1,0 +1,102 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "rough-v1",
+  "owner": "04",
+  "thread_id": "01a11a6f-49ef-7653-934a-4312979fd4e7",
+  "date": "2026-10-24",
+  "status": "INTERNAL_ROUGH_READY_FOR_PMO_REVIEW",
+  "duration_seconds": 45.7,
+  "frames": 1371,
+  "preview": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30
+  },
+  "formal_target": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "status": "NOT_RENDERED"
+  },
+  "model_target": "Astra medium",
+  "actual_model_effort": "UNKNOWN",
+  "rules": [
+    "ELI-MEDIA-AGENTS-20261024-v4",
+    "CODEX-MEDIA-20261024-v3",
+    "ELI-PRODUCTION-20261024-v5",
+    "ELI-REWORK-20261024-v2",
+    "ROUTING-2026-10-24-v5",
+    "TOKEN-BUDGET-2026-10-24-v1"
+  ],
+  "outputs": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/watcha-rough-v1.mp4",
+      "sha256": "1ec10fc9e497192cd3e2b8bf3d1f9dce93799e792c1ef0475064b77a4bb0deb6"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/build.py",
+      "sha256": "29505b98da990305f3bd27b7c3818bb44f50759769c51af7fa0ac2761aafad29"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/check.py",
+      "sha256": "d23ac48a0d2d85b6b5d944a5b6ee27ef177f36fc0ea2d0cde91c3e3c281a96a3"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/scene-edl.json",
+      "sha256": "174e3d59d190ccda1529ddd179574f1019f650d1b13014801163073da01a3c1d"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/voice-edl.json",
+      "sha256": "206cd55a936c05a38db9504f429443bae6f322cfaeb8a0c6f2c4fd757d50c954"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/voice-timeline.wav",
+      "sha256": "bc6ba0360f9a473ddf3c54d2ab07e6de2961babfa945634a3c3f0d3fad8d5889"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/subtitles-v1.srt",
+      "sha256": "56d6f77ea8dbddbe8a8d2d40a3b9fb3001ec51a59db42ca36c0d890286a1dd1b"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/titles.ass",
+      "sha256": "eb8bf1f1376f42c9c5812bba2009367abe4156efb0cf38c2aaa86623623ebac6"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/labels.json",
+      "sha256": "f18bec4d61abcf7cd21b0b8383fae0592df59acd82f82c55a870cbea92705c2e"
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/play.html",
+      "sha256": "cb57e28e8a70e22eb0aa26e11629445f8984d65da1ed630961b3edaf4a962207"
+    }
+  ],
+  "sources": "scene-edl.json and voice-edl.json",
+  "checks": {
+    "full_decode": "PASS; qa/decode.log empty",
+    "spec": "PASS; qa/probe.json",
+    "visual_sampling": "46 samples at 1 fps; both sec-contact sheets viewed",
+    "all_cut_boundaries": "15 cuts x 3 frames; both seam-contact sheets viewed; no blank/flash frames in sampled boundaries",
+    "photo_details": "P08 Claude, P12 bag, P13 score prepared frames viewed at 720x1280; final sampled export inspected",
+    "score_privacy": "92 and 通过 retained; unrelated ticket identifier excluded by crop",
+    "master_pcm_preservation": "PASS; before/after inserted 19s silence byte-exact comparison",
+    "direct_listening": "UNKNOWN; existing 02 capability probe audio content omitted because you do not support audio input; LOCAL_BLOCKERS checked; no new supported entry",
+    "continuous_normal_speed_av": "NOT_PERFORMED",
+    "subtitle_word_alignment": "CANDIDATE; 02 timings remapped +19 seconds after original 8.5s; not force-aligned or heard",
+    "user_approval": "PENDING",
+    "PMO_review": "PENDING"
+  },
+  "limits": [
+    "Internal rough cut only; no packaging or cover.",
+    "All现场 source audio muted; no BGM. 8.5-27.5 seconds intentionally silent.",
+    "First unverified district cue omitted; opening uses event label. 最有意思 remains 02 candidate pending listening.",
+    "Wide room/board compositions retained in full-width letterbox for context; no decorative components or false Fred attribution.",
+    "No fake exam-room footage; exam narration uses real venue cutaways and real score.",
+    "No user speaking-video visuals; V09 excluded."
+  ],
+  "production_record": {
+    "implementation": "FFmpeg hard cuts, fixed captions, source-clock shot EDL; existing runtime only",
+    "render_passes": 1,
+    "rework_rounds": 0,
+    "next_improvement": "PMO first evaluate venue-to-exam cutaways and silent segment reading rhythm; listening owner must resolve candidate transcript and naturalness before final release."
+  }
+}

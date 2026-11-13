@@ -1,0 +1,15 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v4-qiannian",
+  "decision": "SCOPED_SOURCE_SWAP_TECHNICAL_REVIEW_NO_NEW_MUST_FIX",
+  "must_fix": [],
+  "carefree_replaced_not_overlaid": "supported by script and execution record",
+  "existing_packets_equal": true,
+  "packet_count": 2742,
+  "direct_hearing": "UNKNOWN",
+  "continuous_av": "UNKNOWN",
+  "cross_platform_license": "UNKNOWN",
+  "historical_youtube_globalblock": "RETAINED_NOT_RECHECKED",
+  "user_review": "PENDING",
+  "report": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-千年之后换源补充.md"
+}

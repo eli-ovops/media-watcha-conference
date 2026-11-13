@@ -1,0 +1,45 @@
+{
+  "task": "Q1",
+  "owner": "04",
+  "date": "2026-10-24",
+  "cover_revision": "v3",
+  "status": "READY_FOR_PMO_AND_05_LOCAL_RECHECK",
+  "changes": {
+    "3x4": "Removed malformed pedestal English and doorway microtext",
+    "9x16": "Removed malformed doorway microtext",
+    "16x9": "Same-category issue found in original and removed",
+    "4x3": "Removed doorway microtext; restored accidentally omitted upper-right gold logo in a follow-up imagegen edit"
+  },
+  "imagegen_calls": 5,
+  "checked": [
+    "Four full normalized covers viewed",
+    "Six before-after ROI pairs viewed at native crop scale",
+    "350px-wide phone contact viewed",
+    "Exact dimensions and SHA256 checked",
+    "Original v2 cover hashes unchanged",
+    "Video SHA256 unchanged"
+  ],
+  "protected_copy": [
+    "AI考试",
+    "92分",
+    "观猹大会",
+    "2026",
+    "金猹奖颁奖盛典",
+    "见证创造发生"
+  ],
+  "limits": "Generative local edit; surrounding reflections and fine material pixels can differ. Not pixel-identical outside ROI. No new video/audio/subtitle validation, no publishing. PMO/05/user acceptance pending.",
+  "video_sha256_before": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "video_sha256_after": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "video_unchanged": true,
+  "old_covers_preserved": true,
+  "manifest": "../cover-manifest.json",
+  "phone_contact": "../phone-contact-v3.png",
+  "roi_evidence": [
+    "roi-1-1.png",
+    "roi-1-2.png",
+    "roi-2-1.png",
+    "roi-3-1.png",
+    "roi-4-1.png",
+    "roi-4-2.png"
+  ]
+}

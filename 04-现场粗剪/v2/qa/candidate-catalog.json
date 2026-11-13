@@ -1,0 +1,717 @@
+{
+  "catalogRevision": "217ebeb42f5bfca098228f5eb8b29d5c3196c0a2a7b57a38eb8e7c8e07720c7e",
+  "count": 43,
+  "returned": 3,
+  "entries": [
+    {
+      "id": "component:interaction-news-spotlight",
+      "label": "INT02",
+      "title": "局部蒙版聚焦与镜头推进",
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "limitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/2685893955a82d04984f7255",
+          "posterUrl": "/api/design-assets/c0026b50af0ca692440a2b83",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/d90db900c1a1d8ccac3297a4",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/d80df6d9660ab7e5522c8262",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/51527407e9a257b8ecaca537",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "2685893955a82d04984f7255060e36c60614aa220c43a232067013139e39213a",
+          "label": "同步推进与突出",
+          "audioPolicy": "no-audio-track"
+        },
+        {
+          "videoUrl": "/api/design-assets/31bbd02acb86c9c20e5bcae2",
+          "posterUrl": "/api/design-assets/c0026b50af0ca692440a2b83",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/e43ee14fdae35e3b63e1539e",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/fdbbd150af9e54248aad5833",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/678e48922d3725506b9951dd",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/c0026b50af0ca692440a2b83",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/51527407e9a257b8ecaca537",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "31bbd02acb86c9c20e5bcae2321b98becf402532783bfc790d4d4a08a596e1f7",
+          "label": "先推进，再突出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NewsFocus.tsx",
+          "path": "src/NewsFocus.tsx",
+          "symbol": "NewsSpotlightFocus",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "matching": {
+        "referenceId": "interaction-news-spotlight",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实截图"
+        ],
+        "action": "局部蒙版聚焦与镜头推进",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT02",
+          "交互组件组",
+          "先推进再突出",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT02",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ],
+        "title": "局部蒙版聚焦与镜头推进",
+        "collectionId": "interaction-components-20261007",
+        "kind": "components",
+        "score": 428.1,
+        "matchedConceptIds": [
+          "focus"
+        ],
+        "matchedUseIds": [
+          "recording-focus"
+        ],
+        "matchedWords": [
+          "截图",
+          "聚焦",
+          "局部"
+        ],
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：局部蒙版聚焦与镜头推进",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ]
+      },
+      "sourceFiles": [
+        {
+          "path": "components/projects/interaction-components-20261007/source-view/5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23.txt",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "available": true,
+          "remoteAvailable": false,
+          "status": "ready",
+          "symbol": "NewsSpotlightFocus"
+        },
+        {
+          "path": "components/projects/interaction-components-20261007/source-view/7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d.txt",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "available": true,
+          "remoteAvailable": false,
+          "status": "ready"
+        }
+      ],
+      "sourceAvailability": {
+        "available": true,
+        "status": "ready",
+        "authRequired": false,
+        "installationRequired": false,
+        "reason": "Verified source is installed.",
+        "importCommand": null,
+        "downloadCommand": null,
+        "installCommand": null
+      },
+      "candidateId": "interaction-news-spotlight"
+    },
+    {
+      "id": "component:interaction-news-brush",
+      "label": "INT01",
+      "title": "黄色荧光笔刷出与镜头推进",
+      "reusability": {
+        "level": "snapshot",
+        "label": "可编辑源码 · 交互组件",
+        "parameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "limitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "/api/design-assets/0cb2f0d0ffbd97ad21bbf3b7",
+          "posterUrl": "/api/design-assets/5c96496af56c811de980a729",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/74bc5bedc349214154db0281",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/3fa2a1efbca61983ef6ebca2",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/ab2d92738f3a6e091d1c3235",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "0cb2f0d0ffbd97ad21bbf3b7a58feb92b3cc22a6ff25b96cc57b6517f9390f22",
+          "label": "同步推进与突出",
+          "audioPolicy": "no-audio-track"
+        },
+        {
+          "videoUrl": "/api/design-assets/dfe4ccfc0f392b550b78e5f3",
+          "posterUrl": "/api/design-assets/5c96496af56c811de980a729",
+          "keyframes": [
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 0,
+              "timeSeconds": 0.0
+            },
+            {
+              "url": "/api/design-assets/e43ee14fdae35e3b63e1539e",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "/api/design-assets/fdbbd150af9e54248aad5833",
+              "frame": 150,
+              "timeSeconds": 2.5
+            },
+            {
+              "url": "/api/design-assets/3fc1712d5b11fefe3f51c2f2",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "/api/design-assets/5c96496af56c811de980a729",
+              "frame": 240,
+              "timeSeconds": 4.0
+            },
+            {
+              "url": "/api/design-assets/ab2d92738f3a6e091d1c3235",
+              "frame": 360,
+              "timeSeconds": 6.0
+            },
+            {
+              "url": "/api/design-assets/5cdbb10b438a6289b3efac93",
+              "frame": 419,
+              "timeSeconds": 6.983333333333333
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 7.0,
+          "fps": 60,
+          "width": 1920,
+          "height": 1080,
+          "sha256": "dfe4ccfc0f392b550b78e5f3d2df32ff86d6009e3faeccd1fdc492b14bad4709",
+          "label": "先推进，再突出",
+          "audioPolicy": "no-audio-track"
+        }
+      ],
+      "sources": [
+        {
+          "label": "NewsFocus.tsx",
+          "path": "src/NewsFocus.tsx",
+          "symbol": "NewsBrushFocus",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "available": true,
+          "status": "ready"
+        },
+        {
+          "label": "index.tsx",
+          "path": "src/index.tsx",
+          "symbol": "",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "available": true,
+          "status": "ready"
+        }
+      ],
+      "matching": {
+        "referenceId": "interaction-news-brush",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus"
+        ],
+        "sourceId": "interaction-components",
+        "conceptIds": [
+          "focus"
+        ],
+        "inputObjects": [
+          "真实截图"
+        ],
+        "action": "黄色荧光笔刷出与镜头推进",
+        "segmentRole": "交互组件",
+        "nativeDurationSeconds": 7.0,
+        "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。",
+        "tags": [
+          "截图聚焦",
+          "交互组件",
+          "INT01",
+          "交互组件组",
+          "先推进再突出",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "scenarioTitle": "局部放大与标注",
+        "addedAt": "2026-10-07T15:27:49+08:00",
+        "label": "INT01",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "title": "黄色荧光笔刷出与镜头推进",
+        "collectionId": "interaction-components-20261007",
+        "kind": "components",
+        "score": 328.1,
+        "matchedConceptIds": [
+          "focus"
+        ],
+        "matchedUseIds": [
+          "recording-focus"
+        ],
+        "matchedWords": [
+          "截图",
+          "聚焦",
+          "局部"
+        ],
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ]
+      },
+      "sourceFiles": [
+        {
+          "path": "components/projects/interaction-components-20261007/source-view/5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23.txt",
+          "sha256": "5f839ff118d1050318f4e4c0ebaab0d20c37459a84762c1f45a7207c5da8da23",
+          "url": "/api/design-source/5f839ff118d1050318f4e4c0",
+          "available": true,
+          "remoteAvailable": false,
+          "status": "ready",
+          "symbol": "NewsBrushFocus"
+        },
+        {
+          "path": "components/projects/interaction-components-20261007/source-view/7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d.txt",
+          "sha256": "7e04930aa32f78342157fc922fa3e06da374de86bf9cee23ca372607ec3fbf8d",
+          "url": "/api/design-source/7e04930aa32f78342157fc92",
+          "available": true,
+          "remoteAvailable": false,
+          "status": "ready"
+        }
+      ],
+      "sourceAvailability": {
+        "available": true,
+        "status": "ready",
+        "authRequired": false,
+        "installationRequired": false,
+        "reason": "Verified source is installed.",
+        "importCommand": null,
+        "downloadCommand": null,
+        "installCommand": null
+      },
+      "candidateId": "interaction-news-brush"
+    },
+    {
+      "id": "component:fred-wave3-40-t09o",
+      "label": "T09o",
+      "title": "放大镜看细节",
+      "reusability": {
+        "level": "parameterized",
+        "label": "可编辑组件 · 自备媒体",
+        "parameters": [
+          "enter",
+          "exit",
+          "exitAt",
+          "image",
+          "imageSize",
+          "view",
+          "stops",
+          "from",
+          "zoom",
+          "radius",
+          "brand",
+          "cues"
+        ],
+        "limitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ]
+      },
+      "previews": [
+        {
+          "videoUrl": "https://www.fred-fu.com/visual-library-app/objects/b8d2bd904673963dace516b7457d037b76ef407d36d6791ce83574718d899992.mp4",
+          "posterUrl": "https://www.fred-fu.com/visual-library-app/objects/2398d06c601ae0a7bdeded2c17e019f46a6006af750a8087c3b6cec47d259523.jpg",
+          "keyframes": [
+            {
+              "url": "https://www.fred-fu.com/visual-library-app/objects/2398d06c601ae0a7bdeded2c17e019f46a6006af750a8087c3b6cec47d259523.jpg",
+              "frame": 90,
+              "timeSeconds": 1.5
+            },
+            {
+              "url": "https://www.fred-fu.com/visual-library-app/objects/91d3e953f5837fa029c4288a9dfd66be416f902d0f100b5e0ef2a789ee99b069.jpg",
+              "frame": 180,
+              "timeSeconds": 3.0
+            },
+            {
+              "url": "https://www.fred-fu.com/visual-library-app/objects/1f14ebd3ddfc066ee85008a9cd1408cfbcbdcb6b6fe49247799ff9343377b7a5.jpg",
+              "frame": 294,
+              "timeSeconds": 4.9
+            }
+          ],
+          "available": true,
+          "status": "ready",
+          "start": 0,
+          "end": 5.0,
+          "fps": 60,
+          "width": 1280,
+          "height": 720,
+          "sha256": "b8d2bd904673963dace516b7457d037b76ef407d36d6791ce83574718d899992",
+          "label": "放大镜看细节",
+          "audioPolicy": "accepted-component-action-sfx-no-narration",
+          "previewIdentity": {
+            "kind": "public-720p-preview",
+            "derivedFromSha256": "70ffb0ad87e648f18d8b6af46a69fef6e965d584a67d56527963327a46cd2f95",
+            "sourceWidth": 1920,
+            "sourceHeight": 1080,
+            "audioPolicy": "copied-original-compressed-audio"
+          },
+          "access": "public"
+        }
+      ],
+      "sources": [
+        {
+          "label": "T09o-ZoomLens.tsx",
+          "path": "src/components/T09o-ZoomLens.tsx",
+          "symbol": "ZoomLens",
+          "url": "/api/visual-library/assets/66581e8e5604ec2073d19ec65ede4919f9a422be3e51bfe0db62faac41d61822.txt",
+          "sha256": "66581e8e5604ec2073d19ec65ede4919f9a422be3e51bfe0db62faac41d61822",
+          "available": false,
+          "status": "needs-auth",
+          "installPath": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/components/T09o-ZoomLens.tsx",
+          "access": "members"
+        },
+        {
+          "label": "theme.ts",
+          "path": "src/kit/theme.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "available": false,
+          "status": "needs-auth",
+          "installPath": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/kit/theme.ts",
+          "access": "members"
+        },
+        {
+          "label": "ui.tsx",
+          "path": "src/kit/ui.tsx",
+          "symbol": "",
+          "url": "/api/visual-library/assets/05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9.txt",
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "available": false,
+          "status": "needs-auth",
+          "installPath": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/kit/ui.tsx",
+          "access": "members"
+        },
+        {
+          "label": "registry.ts",
+          "path": "src/registry.ts",
+          "symbol": "",
+          "url": "/api/visual-library/assets/987f2b3944771eab702d37b07bff7bf3466220cecc3763bc7ec8671403d6b199.txt",
+          "sha256": "987f2b3944771eab702d37b07bff7bf3466220cecc3763bc7ec8671403d6b199",
+          "available": false,
+          "status": "needs-auth",
+          "installPath": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/registry.ts",
+          "access": "members"
+        }
+      ],
+      "matching": {
+        "referenceId": "fred-wave3-40-t09o",
+        "primaryUse": "recording-focus",
+        "useIds": [
+          "recording-focus",
+          "explain"
+        ],
+        "sourceId": "fred-wave3-40",
+        "conceptIds": [
+          "focus",
+          "media",
+          "text"
+        ],
+        "inputObjects": [
+          "页面截图",
+          "放大镜",
+          "细节说明"
+        ],
+        "action": "画面不动 → 一个圆形放大镜移到细节处放大",
+        "segmentRole": "新做参数化组件（Fred 认可入库）",
+        "nativeDurationSeconds": 5.0,
+        "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。",
+        "tags": [
+          "新做组件",
+          "T09o",
+          "放大镜",
+          "局部细节",
+          "录屏聚焦",
+          "局部放大与标注"
+        ],
+        "scenarioId": "focus",
+        "addedAt": "2026-10-12T22:14:03+08:00",
+        "scenarioTitle": "局部放大与标注",
+        "label": "T09o",
+        "categoryId": "recording-focus",
+        "category": "录屏聚焦",
+        "sceneTypes": [
+          "search-process"
+        ],
+        "title": "放大镜看细节",
+        "collectionId": "fred-wave3-40-20261012",
+        "kind": "components",
+        "score": 260.4,
+        "matchedConceptIds": [
+          "media",
+          "focus"
+        ],
+        "matchedUseIds": [
+          "recording-focus"
+        ],
+        "matchedWords": [
+          "截图",
+          "聚焦",
+          "局部"
+        ],
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：局部、截图、聚焦"
+        ]
+      },
+      "sourceFiles": [
+        {
+          "path": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/components/T09o-ZoomLens.tsx",
+          "sha256": "66581e8e5604ec2073d19ec65ede4919f9a422be3e51bfe0db62faac41d61822",
+          "url": "/api/visual-library/assets/66581e8e5604ec2073d19ec65ede4919f9a422be3e51bfe0db62faac41d61822.txt",
+          "available": false,
+          "remoteAvailable": false,
+          "status": "missing",
+          "symbol": "ZoomLens"
+        },
+        {
+          "path": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/kit/theme.ts",
+          "sha256": "a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3",
+          "url": "/api/visual-library/assets/a235e95c652137b43c31a9c680dabfd8fce3bbb45fac8559cd0af70ce2e9b1a3.txt",
+          "available": false,
+          "remoteAvailable": false,
+          "status": "missing"
+        },
+        {
+          "path": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/kit/ui.tsx",
+          "sha256": "05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9",
+          "url": "/api/visual-library/assets/05ce402324f5e11521b15dacc30de3ee1f89adb0a1b5c20b220a29890d8e3ba9.txt",
+          "available": false,
+          "remoteAvailable": false,
+          "status": "missing"
+        },
+        {
+          "path": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/registry.ts",
+          "sha256": "987f2b3944771eab702d37b07bff7bf3466220cecc3763bc7ec8671403d6b199",
+          "url": "/api/visual-library/assets/987f2b3944771eab702d37b07bff7bf3466220cecc3763bc7ec8671403d6b199.txt",
+          "available": false,
+          "remoteAvailable": false,
+          "status": "missing"
+        }
+      ],
+      "sourceAvailability": {
+        "available": false,
+        "status": "needs-auth",
+        "authRequired": true,
+        "installationRequired": true,
+        "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+        "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+        "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave3-40-20261012",
+        "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave3-40-20261012"
+      },
+      "sourcePackage": {
+        "collectionId": "fred-wave3-40-20261012",
+        "sha256": "3b66f705b43458eb37c79c59d261489dfc5b0d64aadc9557f85b4af5c4d53546",
+        "size": 34169121,
+        "installRoot": ".artifacts/member-components/fred-wave3-40-20261012",
+        "entryPoint": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/src/index.tsx",
+        "publicDir": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012/public"
+      },
+      "projectRoot": ".artifacts/member-components/fred-wave3-40-20261012/fred-wave3-40-20261012",
+      "entryPoint": null,
+      "publicDir": null,
+      "earlyAccess": {
+        "enabled": true,
+        "audience": "exclusive_group",
+        "requiredMembershipLevels": [
+          "exclusive_group"
+        ],
+        "durationDays": 14,
+        "startsAt": "2026-10-13T03:15:00.000Z",
+        "publicAt": "2026-10-27T03:15:00.000Z"
+      },
+      "candidateId": "fred-wave3-40-t09o"
+    }
+  ]
+}

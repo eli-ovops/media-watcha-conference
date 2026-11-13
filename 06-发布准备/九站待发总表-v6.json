@@ -1,0 +1,82 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v4-qiannian",
+  "video": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-千年之后混音/watcha-full-v4-qiannian.mp4",
+  "sha256": "420a3b9c1f1bfbfe117d91936c653f6d29aa08b507ddce6c770ad2b195adc5be",
+  "current": "LinkedIn准备",
+  "next": "小红书",
+  "platforms": {
+    "抖音": {
+      "status": "已保存重开，沿v5验收不再操作",
+      "account": "Eli-Ai",
+      "gap": "原生同曲关联待本人，v4内已含正确音乐",
+      "evidence": "抖音v4待发实核-v5.json"
+    },
+    "B站": {
+      "status": "已云端保存并重开",
+      "account": "Eli-AI（封面预览实见）",
+      "media": "原生更换视频上传v4，上传完成；云草稿重开上传完成",
+      "covers": "v3 4:3及16:9独立上传、构图核对、保存",
+      "copy": "标题正文已完整回读，旧Carefree署名清除",
+      "tags": "原生label-item六标签：人工智能、AI、学习、观猹大会、观猹、AI考试；专门活动话题未挂",
+      "statement": "含AI生成内容",
+      "url": "https://member.bilibili.com/platform/upload/video/frame?type=draft&draftId=4028849",
+      "gap": "待用户点击立即投稿；未发布",
+      "screenshot": "B站-保存重开-v6.jpg"
+    },
+    "微博": {
+      "status": "v4上传完成、已填未证保存",
+      "account": "Eli-AI / 7720929036（我的主页及顶栏实核）",
+      "media": "原生上传v4完成21.98MB",
+      "covers": "3:4 v3上传并裁切全幅核对",
+      "copy": "国内标题正文完整填写，已移除旧音乐署名",
+      "tags": "规范#观猹大会# #观猹# #AI# #AI考试#已填；原生话题按钮未返回对应匹配，链接属性UNKNOWN",
+      "statement": "原创；含AI生成内容；VLOG-探店看展",
+      "url": "https://weibo.com/upload/channel",
+      "save_reopen": "未见保存入口，保持待发页，不刷新丢字段",
+      "gap": "本人发布前核观猹两话题属性；持久草稿未证",
+      "screenshot": "微博-已填待发-v6.jpg"
+    },
+    "TikTok": {
+      "status": "云端保存并重开，话题属性未完全验证",
+      "account": "Eli-AI / @elimakesapps（本人内容管理链接及编辑预览）",
+      "media": "v4文件名/1080P/23.04MB/约46秒，重开仍在",
+      "covers": "v3 3:4，替换裁字9:16临时封面后完整构图核对，草稿列表缩略图保留",
+      "copy": "繁体标题正文完整保留",
+      "tags": "#观猹大会 #观猹 #AI #AI應用 已填并保存；编辑DOM未证原生实体或链接，UNKNOWN",
+      "statement": "AI生成，重开预览保留",
+      "checks": "音乐版权和内容快速检查均未发现问题，非最终公开审核",
+      "url": "https://www.tiktok.com/tiktokstudio/upload?from=creator_center&draft_id=176934050564&open_editor=0",
+      "gap": "本人发布前核观猹话题属性；未发布",
+      "screenshot": "TikTok-保存重开-v6.jpg"
+    },
+    "X": {
+      "status": "已保存并重开",
+      "account": "Eli-AI / @cczij1112（账号菜单与本人主页实核）",
+      "media": "v4上传显示就绪，保存后草稿0:45；重开平台转码文件显示就绪",
+      "covers": "当前原生编辑媒体仅字幕/内容警告，未见自定义封面入口；使用视频首帧",
+      "copy": "繁体短版完整保留",
+      "tags": "观猹大会/观猹/AI各自独立蓝色hashtag装饰span，重开保留；公开链接须发布后再核",
+      "statement": "由AI生成，保存重开保留",
+      "url": "https://x.com/compose/post",
+      "save_reopen": "原生提示你的草稿已保存；/compose/post/unsent/drafts找到唯一该片并重开",
+      "gap": "自定义封面当前入口不支持；待本人点击发帖",
+      "screenshot": "X-保存重开-v6.jpg"
+    },
+    "LinkedIn": {
+      "status": "未开始"
+    },
+    "小红书": {
+      "status": "未开始"
+    },
+    "视频号": {
+      "status": "明确安全拒绝，本轮不访问；手动包待本人",
+      "gap": "本人使用v4、v3封面与国内文案手动上传发布"
+    },
+    "YouTube": {
+      "status": "历史同曲GLOBAL_BLOCK，待用户取舍，不上传",
+      "gap": "用户决定改曲或暂缓"
+    }
+  },
+  "updated_at": "2026-10-24T15:21:15.946Z"
+}

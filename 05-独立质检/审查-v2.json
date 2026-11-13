@@ -1,0 +1,22 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "version": "v2",
+  "video_sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "decision": "VIDEO_SCOPED_NO_NEW_MUST_FIX / COVER_LOCAL_FIX_REQUIRED",
+  "must_fix": [
+    {
+      "id": "Q1",
+      "priority": 2,
+      "scope": "cover background microtext",
+      "owner": "04",
+      "protect": "video/audio/all main cover typography and layouts",
+      "recheck": "changed cover regions/full images/phone thumbnails only"
+    }
+  ],
+  "continuous_visual": "UNKNOWN",
+  "direct_hearing": "UNKNOWN",
+  "continuous_av": "UNKNOWN",
+  "user_approval": "PENDING",
+  "actual_model_effort_speed": "UNKNOWN",
+  "report": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-v2.md"
+}

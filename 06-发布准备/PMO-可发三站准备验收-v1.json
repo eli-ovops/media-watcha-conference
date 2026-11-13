@@ -1,0 +1,21 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "06",
+  "decision": "PASS",
+  "scope": "仅对已保存重开的B站、TikTok、X三站草稿进行当前版本发布准备验收；其余平台按授权文件排除或保留原阻断状态。",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/九站待发总表-v6.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/九站待发总表-v6.json",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/B站-保存重开-v6.jpg",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/TikTok-保存重开-v6.jpg",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/X-保存重开-v6.jpg",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/用户发布授权-可发三站-v1.json"
+  ],
+  "remaining_required_work": [],
+  "limitations": [
+    "平台发布前仍须原生核重/草稿检查；本审查不声称已公开发布。",
+    "微博、LinkedIn、小红书、视频号、YouTube、抖音不在本次发布范围。"
+  ],
+  "reviewed_at": "2026-10-25 Asia/Shanghai"
+}

@@ -1,0 +1,20 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "05",
+  "decision": "PASS",
+  "human_review_source": "CurrentPMOchat user2026-10-24:准备发布吧，选一个bgmg;followingdeliveryofvideo6c3f10...ed0a8andcoverv3",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-v2.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/审查-Q1补充.md",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/PMO-独立质检与Q1收口.json"
+  ],
+  "remaining_required_work": [],
+  "scope": "Userselectedcurrentversionfornonpublicpublicationpreparation/musicselectiononly;notclaimuserlistenedornormal-speedAVwasverified",
+  "still_unverified": [
+    "Directhearing/naturalness/precisesubtitlesync",
+    "Normal-speedcontinuousAV"
+  ],
+  "next_stage": "06nonpublicDouyinpreparationandnativeBGMselection;actualpreviewbeforepublishing",
+  "publication_authorized": false
+}

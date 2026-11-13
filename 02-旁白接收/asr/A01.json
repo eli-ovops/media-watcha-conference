@@ -1,0 +1,98 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | SME2 = 1 | ACCELERATE = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "base",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Volumes/EXTERNAL/Tools/Whisper/models/ggml-base.bin",
+		"language": "zh",
+		"translate": false
+	},
+	"result": {
+		"language": "zh"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,120"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4120
+			},
+			"text": "全场我个人觉得这有意思可能就是这场考试"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,120",
+				"to": "00:00:08,160"
+			},
+			"offsets": {
+				"from": 4120,
+				"to": 8160
+			},
+			"text": "整场考试是必卷的,然后也不能用手机"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,160",
+				"to": "00:00:10,640"
+			},
+			"offsets": {
+				"from": 8160,
+				"to": 10640
+			},
+			"text": "最后我是考了92分"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,640",
+				"to": "00:00:13,000"
+			},
+			"offsets": {
+				"from": 10640,
+				"to": 13000
+			},
+			"text": "感觉还可以吧"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:13,000",
+				"to": "00:00:15,800"
+			},
+			"offsets": {
+				"from": 13000,
+				"to": 15800
+			},
+			"text": "如果说让你来考的话,你能考几分呢"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:15,800",
+				"to": "00:00:18,000"
+			},
+			"offsets": {
+				"from": 15800,
+				"to": 18000
+			},
+			"text": "大家可以来试试看"
+		}
+	]
+}

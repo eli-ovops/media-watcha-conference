@@ -1,0 +1,22 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "stage": "04",
+  "decision": "PASS",
+  "accepted_scope": "Production delivery and revised visual structure, not final audiovisual approval",
+  "evidence_read": [
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/Manifest.json",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/sec-contact-1.jpg",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/sec-contact-2.jpg",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/qa/final-phone-contact.png",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/phone-contact.png",
+    "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/PMO-代表段原效果对照-v2.json"
+  ],
+  "output_sha_check": "All current Manifest outputs match current bytes",
+  "remaining_required_work": [],
+  "next_stage_checks": [
+    "Independent same-version visual/subtitle/covers check",
+    "Direct hearing and continuous audiovisual still pending; no full PASS or publish gate"
+  ],
+  "visual_result": "R1/R2/R3 improved; major evaluation wall and92 visible at phone scale, badge/print materials relate to exam story;4covers clear black/purple with exactmaintext and no selfportrait."
+}

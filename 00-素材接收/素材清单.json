@@ -1,0 +1,639 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "event_date": "2026-10-24",
+  "scope": "本期素材接收整理与候选方向，未派制作/未发布",
+  "counts": {
+    "videos": 8,
+    "received_videos": 9,
+    "event_video_confirmed": 8,
+    "ignored_wrong_video": "V09 per user confirmation",
+    "photos_including_score": 13,
+    "files_total": 21
+  },
+  "video_total_sec": 51.93333333333333,
+  "confirmed_event_video_sec": 51.93333333333333,
+  "reading_scope": "12张照片及成绩图已视觉读取；9段视频各6帧共54帧已实看；整轨本地ASR已运行但明显错词/越界，不能用作引用或直接听音。没有声画连续观看。",
+  "files": [
+    {
+      "source": "/Users/USER/Downloads/98af5d6722190a07fa32d89a12bb95b2.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V01.mp4",
+      "sha256": "d9013773c05e7fbd2a28ddec2e80b1ebd0438940697202f9e71857238cd2fa93",
+      "bytes": 245317,
+      "id": "V01",
+      "type": "video",
+      "duration_sec": 2.3333333333333335,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "observed_content": "AI茶饮实验站和旁边展位",
+      "category": "会场趣味互动",
+      "limit": "用户确认未亲自体验，仅介绍现场玩法，一笔带过，不讲配方",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 0.389,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 0.778,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 1.167,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 1.556,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 1.944,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/be7e927e38ed207a/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V01-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/55737de88d63f8e39796ef97dffe8bb5.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V02.mp4",
+      "sha256": "6dba1d6b24429ad7ee5809c59fcb60637e3d3cf5b0247c2145a67357ec1c6ef8",
+      "bytes": 622724,
+      "id": "V02",
+      "type": "video",
+      "duration_sec": 5.866666666666666,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "observed_content": "主会场灯光、座椅、品牌墙横向扫拍",
+      "category": "大会气氛",
+      "limit": "横屏短切，不能直接横屏缩成竖屏小框",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 0.978,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 1.956,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 2.933,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 3.911,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 4.889,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/07680753f4c471de/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V02-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/ba133b9b9a255ccb739331c5409fe45e.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V03.mp4",
+      "sha256": "5be3f97d309b18ef2fef224e8f704e8aa148f3f618c5d0d635c3a500fe5e610c",
+      "bytes": 549690,
+      "id": "V03",
+      "type": "video",
+      "duration_sec": 4.533333333333333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "observed_content": "雨天会场外景与入口竖向扫拍",
+      "category": "到达与开场",
+      "limit": "可用后半段带入观猹大会入口",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 0.756,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 1.511,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 2.267,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 3.022,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 3.778,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9f54dee2dc56efcc/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V03-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/32ad7300b84096bc247ec0eaa46a1814.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V04.mp4",
+      "sha256": "91470f9348e9ee1d3a40d9b031e231abe9b713663eba50dc5122cc079e4367d5",
+      "bytes": 399093,
+      "id": "V04",
+      "type": "video",
+      "duration_sec": 2.1333333333333333,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "observed_content": "红色大会入口横向近景",
+      "category": "地点确认",
+      "limit": "与照片P03/P04同类，不必重复堆叠",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 0.356,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 0.711,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 1.067,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 1.422,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 1.778,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/7c46c579e627da4e/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V04-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/d13eac06b2cb29f7a6e69ffe11a99986.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V05.mp4",
+      "sha256": "bbd86a688bcf48d4dfc21b3286fe4b3c80b6b63ba98d184e99f57f211da70858",
+      "bytes": 1337678,
+      "id": "V05",
+      "type": "video",
+      "duration_sec": 14.533333333333333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "observed_content": "创始人AMA两人对谈与观众",
+      "category": "交流氛围",
+      "limit": "不凭面孔认定人物；ASR不可直接引用",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 2.422,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 4.844,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 7.267,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 9.689,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 12.111,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/ee23d8eac631ef11/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V05-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/651c140d1606cd944cdd6fc093904ead.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V06.mp4",
+      "sha256": "592e36c290602cd18d428592bd27b4c5c4f44dff4b92460ddf85527307292920",
+      "bytes": 791872,
+      "id": "V06",
+      "type": "video",
+      "duration_sec": 6.666666666666667,
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "observed_content": "多人圆桌与观众横屏",
+      "category": "交流氛围",
+      "limit": "台上身份/主题未逐字核实，做短气氛镜头",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 1.111,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 2.222,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 3.333,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 4.444,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 5.556,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/9689c4cc86b843bd/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V06-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/342354b593ded2b72fd3930e6f489fa5.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V07.mp4",
+      "sha256": "3b7b27fb89a0e3157acf688d4a02fdf1f09a2a9ff83698d97caafc894efb6682",
+      "bytes": 862935,
+      "id": "V07",
+      "type": "video",
+      "duration_sec": 8,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "observed_content": "观猹×JoyAI赛博OOTD换装间",
+      "category": "可见互动展示",
+      "limit": "用户确认未亲自体验，仅介绍现场玩法，一笔带过",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 1.333,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 2.667,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 4,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 5.333,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 6.667,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/3c78c1669fcea558/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V07-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/b4b93514b48ef8a03e6ae40504a5368d.mp4",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/视频/V08.mp4",
+      "sha256": "51968e21d8e20740519da6f9e99541db03106282b1b5c8238b148f62dde090c0",
+      "bytes": 978503,
+      "id": "V08",
+      "type": "video",
+      "duration_sec": 7.866666666666666,
+      "width": 720,
+      "height": 1280,
+      "fps": 30,
+      "observed_content": "古法VS AI Coding讨论现场",
+      "category": "开发者讨论",
+      "limit": "仅按现场屏幕主题，不引用未听核的观点",
+      "frames": [
+        {
+          "index": 0,
+          "timeSec": 0,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0001.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 1,
+          "timeSec": 1.311,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0002.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 2,
+          "timeSec": 2.622,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0003.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 3,
+          "timeSec": 3.933,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0004.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 4,
+          "timeSec": 5.244,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0005.jpg",
+          "mimeType": "image/jpeg"
+        },
+        {
+          "index": 5,
+          "timeSec": 6.556,
+          "path": "/Volumes/EXTERNAL/自媒体/工具验证/video-mcp-20261007/evidence/cache/frames/b70f2d81e4297a75/interval/frame_0006.jpg",
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "visual_samples_viewed": 6,
+      "continuous_av_viewed": false,
+      "direct_audio_listening": false,
+      "asr": "UNRELIABLE_DO_NOT_QUOTE",
+      "analysis_record": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/V08-analysis.json"
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135920_150_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P01.jpg",
+      "sha256": "b2e3dc475509d9e334222d031f0a4455d6f127083072c4ab5e99e89a6dd68079",
+      "bytes": 304145,
+      "id": "P01",
+      "type": "photo",
+      "observed_content": "奶龙拼贴画与展台屏幕",
+      "category": "趣味展台",
+      "limit": "不凭海报认定AI生成方法",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135921_151_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P02.jpg",
+      "sha256": "75e5b88a257d87f8493e70c5035d3083de2ff83203b74bf0fa69bf0fe62745e4",
+      "bytes": 287755,
+      "id": "P02",
+      "type": "photo",
+      "observed_content": "AI拼豆工坊；现场Vibe Coding挑战赛展牌",
+      "category": "互动玩法",
+      "limit": "用户确认未亲自体验，仅介绍现场玩法，一笔带过",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135910_140_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P03.jpg",
+      "sha256": "c15cf0c1c2e70550caa1acb9820a11e3470ca8844aa1fdf24ca244f2aa078b18",
+      "bytes": 2569730,
+      "id": "P03",
+      "type": "photo",
+      "observed_content": "观猹大会与金猹奖入口正面",
+      "category": "会场与到达",
+      "limit": "优先候选；与P04近似构图均保留",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135912_141_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P04.jpg",
+      "sha256": "49913a3a4883dd6d109181cc0bcb1b03a37631cba17c5ca82bbccf23ae4aa132",
+      "bytes": 2743911,
+      "id": "P04",
+      "type": "photo",
+      "observed_content": "同一红色入口斜向构图",
+      "category": "会场与到达",
+      "limit": "近似候选，不删除",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135914_143_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P05.jpg",
+      "sha256": "f0b496bcba565c0fdd873231c5711fab902b9a6c1d43307987d4526e2b259deb",
+      "bytes": 6051344,
+      "id": "P05",
+      "type": "photo",
+      "observed_content": "观猹员胸牌、互动打卡册和GOOD/BAD贴纸",
+      "category": "个人逛展线索",
+      "limit": "可用于说明怎么逛展、贴纸玩法",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135907_136_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P06.jpg",
+      "sha256": "50e5886a90de2a9e8010ed069f51d83456f98ef6fd017ce995429077118428ee",
+      "bytes": 7198542,
+      "id": "P06",
+      "type": "photo",
+      "observed_content": "雨天展馆远景、指路牌",
+      "category": "会场与到达",
+      "limit": "适合交代雨天到达",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135909_138_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P07.jpg",
+      "sha256": "0b0ee6e777521a9e9d3a43206e177c3220252302741ed1cdb2f88f03f417a357",
+      "bytes": 7413271,
+      "id": "P07",
+      "type": "photo",
+      "observed_content": "观猹大会展区地图",
+      "category": "背景补充",
+      "limit": "小字未逐字核实，避免放大冒认展商名单",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135916_145_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P08.jpg",
+      "sha256": "15aa75e7a5cca8d4309ecdd300c06ff2a4b941f97de425a6f5ecdcd66c836df7",
+      "bytes": 7928117,
+      "id": "P08",
+      "type": "photo",
+      "observed_content": "ChatGPT/Claude/豆包/DeepSeek红绿贴纸墙",
+      "category": "AI用户反馈互动",
+      "limit": "现场非随机互动，不作模型性能排名；与人气墙区分",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135923_152_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P09.jpg",
+      "sha256": "46c96de8bfce2fadcf2b6a1fd52b7dc44b9464443a0711ceb69839f67cb56940",
+      "bytes": 6431384,
+      "id": "P09",
+      "type": "photo",
+      "observed_content": "AI人气投票站、各模型logo与贴纸",
+      "category": "AI用户反馈互动",
+      "limit": "是另一处喜欢哪个AI的人气墙，不与P08混为同一票数",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135918_147_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P10.jpg",
+      "sha256": "3a44363f0cf12e83b1ce585600fff894a43305096bba30f77be2280430c60313",
+      "bytes": 7634740,
+      "id": "P10",
+      "type": "photo",
+      "observed_content": "观猹主展台与人像墙",
+      "category": "会场气氛",
+      "limit": "不按头像认定本人见过谁",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135920_149_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P11.jpg",
+      "sha256": "2d38db33254c19c12f81571f030290da818f7b3db21639eb5b618c110a78c1cb",
+      "bytes": 7601800,
+      "id": "P11",
+      "type": "photo",
+      "observed_content": "混沌摆奶龙立牌、旁边产品屏幕",
+      "category": "趣味展台",
+      "limit": "屏幕功能尚未确认，不能擅讲产品原理",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/Users/USER/Downloads/微信图片_20261024135925_153_2.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P12.jpg",
+      "sha256": "e86422d7fc4fa9e8ae513ab41846c34f5b4e907168230ca8db63e1d0bac78ab6",
+      "bytes": 8177303,
+      "id": "P12",
+      "type": "photo",
+      "observed_content": "您的Claude访问权限已暂停帆布袋与周边",
+      "category": "AI圈趣味周边",
+      "limit": "是周边文案，不是用户账号被封证据",
+      "visually_reviewed": true
+    },
+    {
+      "source": "/var/folders/1q/6mf7kw2j1z19q1f9dydq60wh0000gn/T/codex-clipboard-9ed0c33d-63b9-4660-a92f-08891431ad26.jpg",
+      "archive": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/01-原始素材/照片/P13-exam-score.jpg",
+      "sha256": "2d24e2b0dde1190d53dec181fbcf713163c3a956a3307ac1cbe2411761d7dfdf",
+      "bytes": 131310,
+      "id": "P13",
+      "type": "photo",
+      "observed_content": "观猹学社查分：10月24日11:00场，92分，通过",
+      "category": "本人考试经历",
+      "visually_reviewed": true,
+      "user_confirmed": "闭卷、不能用手机；题目已不记得",
+      "limit": "不写具体试题、不推断满分/排名或权威认证；制作选用时只展示理解所需的成绩区"
+    }
+  ]
+}

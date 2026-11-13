@@ -1,0 +1,130 @@
+{
+  "content_id": "watcha-conference-20261024",
+  "owner": "04",
+  "version": "v3-bgm",
+  "status": "READY_FOR_PMO_USER_PREVIEW",
+  "video_input": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/watcha-full-v2.mp4",
+  "video_input_sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "music_input": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/06-发布准备/bgm/Carefree-Kevin-MacLeod.mp3",
+  "music_sha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+  "output": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-BGM混音/watcha-full-v3-bgm.mp4",
+  "output_sha256": "e5ec6ba3bfb967c37da5ada95448cf828d158085b3974f0e41079da32bb93330",
+  "duration": 45.7,
+  "music_source_range": [
+    0,
+    45.7
+  ],
+  "gain_db": {
+    "narration": -14.059999999999999,
+    "middle": -5.059999999999999
+  },
+  "envelope": {
+    "low": [
+      0,
+      8.5
+    ],
+    "rise": [
+      8.5,
+      9.1
+    ],
+    "high": [
+      9.1,
+      26.9
+    ],
+    "fall": [
+      26.9,
+      27.5
+    ],
+    "low_end": [
+      27.5,
+      45.7
+    ],
+    "fade_in": [
+      0,
+      0.4
+    ],
+    "fade_out": [
+      44.5,
+      45.7
+    ]
+  },
+  "voice": "Original decoded mono samples duplicated into stereo at unity; no gain, speed, denoise or time change; final AAC re-encoded",
+  "measurement": {
+    "music_source": {
+      "input_i": "-19.94",
+      "input_tp": "-5.63",
+      "input_lra": "1.70",
+      "input_thresh": "-29.94",
+      "output_i": "-24.92",
+      "output_tp": "-10.61",
+      "output_lra": "1.70",
+      "output_thresh": "-34.92",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.08"
+    },
+    "voice_source": {
+      "input_i": "-22.37",
+      "input_tp": "-3.04",
+      "input_lra": "6.30",
+      "input_thresh": "-33.28",
+      "output_i": "-26.08",
+      "output_tp": "-7.33",
+      "output_lra": "5.10",
+      "output_thresh": "-36.98",
+      "normalization_type": "dynamic",
+      "target_offset": "1.08"
+    },
+    "final_encoded_audio": {
+      "input_i": "-21.01",
+      "input_tp": "-2.85",
+      "input_lra": "7.50",
+      "input_thresh": "-31.46",
+      "output_i": "-25.82",
+      "output_tp": "-6.47",
+      "output_lra": "6.90",
+      "output_thresh": "-36.24",
+      "normalization_type": "dynamic",
+      "target_offset": "0.82"
+    },
+    "middle_10_26": {
+      "input_i": "-25.35",
+      "input_tp": "-10.73",
+      "input_lra": "1.40",
+      "input_thresh": "-35.35",
+      "output_i": "-25.25",
+      "output_tp": "-10.59",
+      "output_lra": "1.00",
+      "output_thresh": "-35.25",
+      "normalization_type": "dynamic",
+      "target_offset": "0.25"
+    }
+  },
+  "video_packets_identical": true,
+  "packet_count": 2742,
+  "video_packet_fields": [
+    "pts",
+    "dts",
+    "duration",
+    "size",
+    "data_hash"
+  ],
+  "direct_listening": "UNKNOWN",
+  "continuous_AV": "NOT_PERFORMED",
+  "covers": "Existing v3 unchanged; outside this task",
+  "target_model_effort": "Astra medium",
+  "actual_model_effort": "UNKNOWN",
+  "rules": [
+    "AGENTS-v4",
+    "workflow-v3",
+    "production-v5",
+    "rework-v2",
+    "ROUTING-2026-10-24-v5",
+    "TOKEN-BUDGET-2026-10-24-v1"
+  ],
+  "permission": "Task and formal release receipt in this directory; user request overrides prior no-BGM",
+  "license": "source-license.json",
+  "publishing": "NOT_PERFORMED",
+  "temporary_files": "None; all files in this directory are task inputs, source, output or retained verification evidence",
+  "actual_audio_duration_seconds": 45.674,
+  "audio_end_delta_seconds": 0.026
+}

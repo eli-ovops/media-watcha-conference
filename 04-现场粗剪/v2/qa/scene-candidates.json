@@ -1,0 +1,562 @@
+{
+  "libraryCandidates": {
+    "query": "真实截图 局部蒙版聚焦与镜头推进",
+    "sceneType": "prompt-reading",
+    "candidates": [
+      {
+        "id": "interaction-news-spotlight",
+        "displayLabel": "INT02",
+        "title": "局部蒙版聚焦与镜头推进",
+        "useWhen": "局部蒙版聚焦与镜头推进",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT02",
+        "score": 448.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：局部蒙版聚焦与镜头推进",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "局部蒙版聚焦与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-spotlight --full"
+      },
+      {
+        "id": "interaction-news-brush",
+        "displayLabel": "INT01",
+        "title": "黄色荧光笔刷出与镜头推进",
+        "useWhen": "黄色荧光笔刷出与镜头推进",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT01",
+        "score": 348.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "黄色荧光笔刷出与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-brush --full"
+      },
+      {
+        "id": "fred-wave2-42-t08d",
+        "displayLabel": "T08d",
+        "title": "界面多区域依次标注",
+        "useWhen": "一张界面 → 几个区域按顺序被标出",
+        "sceneTypes": [
+          "device-demo",
+          "prompt-reading"
+        ],
+        "collectionId": "fred-wave2-42-20261012",
+        "editableParameters": [],
+        "knownLimitations": [
+          "源码包保留真实实现、kit、字体与动作音效；人物素材、实际录屏与每期原片由使用者自备。",
+          "新文字、数量、媒体与口播时码需检查容量、可读性和动态。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 300,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": false,
+          "status": "needs-auth",
+          "authRequired": true,
+          "installationRequired": true,
+          "reason": "Source is not installed; log in to the website, download the official source ZIP and import it locally. Automatic token downloads are optional.",
+          "importCommand": "python3 scripts/assets.py import --zip <official-source-ZIP-path>",
+          "downloadCommand": "python3 scripts/assets.py download --members --collection fred-wave2-42-20261012",
+          "installCommand": "python3 scripts/assets.py materialize --members --collection fred-wave2-42-20261012"
+        },
+        "earlyAccess": {
+          "enabled": true,
+          "audience": "exclusive_group",
+          "requiredMembershipLevels": [
+            "exclusive_group"
+          ],
+          "durationDays": 14,
+          "startsAt": "2026-10-13T03:15:00.000Z",
+          "publicAt": "2026-10-27T03:15:00.000Z"
+        },
+        "label": "T08d",
+        "score": 280.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：局部、截图、聚焦"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "fred-wave2-42",
+          "inputObjects": [
+            "界面截图",
+            "区域坐标"
+          ],
+          "action": "一张界面 → 几个区域按顺序被标出",
+          "segmentRole": "新做参数化组件（Fred 认可入库）",
+          "nativeDurationSeconds": 5.0,
+          "adaptation": "只通过 props 换文字、素材、数量；新内容先出静帧检查容量与可读性。"
+        },
+        "resolveCommand": "references.py --id fred-wave2-42-t08d --full"
+      },
+      {
+        "id": "new30-rc02",
+        "displayLabel": "RC02",
+        "title": "整页镜头推近与回全貌",
+        "useWhen": "整页镜头推近与回全貌",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "expansion-selected-20261007",
+        "editableParameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "knownLimitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 480,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "RC02",
+        "score": 280.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：头推、局部、真实、聚焦、镜头"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "expansion-selected",
+          "inputObjects": [
+            "真实录屏",
+            "ROI",
+            "阅读暂停"
+          ],
+          "action": "A single camera continuously scales the uninterrupted source around a real ROI; there is no detached duplicate card. Camera positions clamp to source bounds.",
+          "segmentRole": "用户已选完整示例组件",
+          "nativeDurationSeconds": 8,
+          "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。"
+        },
+        "resolveCommand": "references.py --id new30-rc02 --full"
+      },
+      {
+        "id": "ep109-selected-03",
+        "displayLabel": "109-03",
+        "title": "录屏真实文字局部提起与连续阅读",
+        "useWhen": "录屏真实文字局部提起与连续阅读",
+        "sceneTypes": [
+          "prompt-reading",
+          "device-demo"
+        ],
+        "collectionId": "ep109-selected-20261006",
+        "editableParameters": [
+          "字幕与角标开关",
+          "原视频/九宫格素材路径",
+          "原片入口补片开关"
+        ],
+        "knownLimitations": [
+          "认可范围仅为本次指定区间；新文字、素材、ROI和接缝仍需适配检查。",
+          "源码包保留真实动画函数；33帧原片接缝为示例边界补片。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 660
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "109-03",
+        "score": 274.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：局部、真实、聚焦、蒙版"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "ep109",
+          "inputObjects": [
+            "录屏",
+            "真实文字ROI",
+            "蒙版"
+          ],
+          "action": "录屏真实文字局部提起与连续阅读",
+          "segmentRole": "完整选段场景",
+          "nativeDurationSeconds": 11,
+          "adaptation": "保留准确动作关系与媒体时钟；新文案、ROI、几何及交接需适配检查。"
+        },
+        "resolveCommand": "references.py --id ep109-selected-03 --full"
+      }
+    ],
+    "crossTypeFallback": false,
+    "scope": "Candidates only; inspect exact video and interface before selecting. No approval inferred.",
+    "selectionRule": "Inspect every listed candidate; record each as selected or rejected with a concrete reason before any original route.",
+    "publicFallbackCandidates": [
+      {
+        "id": "interaction-news-spotlight",
+        "displayLabel": "INT02",
+        "title": "局部蒙版聚焦与镜头推进",
+        "useWhen": "局部蒙版聚焦与镜头推进",
+        "sceneTypes": [
+          "prompt-reading",
+          "frosted-focus"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "regions",
+          "order",
+          "emphasisAt",
+          "dimOpacity",
+          "zoom",
+          "sourceWidth",
+          "sourceHeight"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT02",
+        "score": 448.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "原词命中：局部蒙版聚焦与镜头推进",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "局部蒙版聚焦与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-spotlight --full"
+      },
+      {
+        "id": "interaction-news-brush",
+        "displayLabel": "INT01",
+        "title": "黄色荧光笔刷出与镜头推进",
+        "useWhen": "黄色荧光笔刷出与镜头推进",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "interaction-components-20261007",
+        "editableParameters": [
+          "src",
+          "sourceWidth",
+          "sourceHeight",
+          "regions",
+          "order",
+          "emphasisAt",
+          "cameraSeconds",
+          "zoom"
+        ],
+        "knownLimitations": [
+          "Text/ROI/timing changes require capacity and visual checks.",
+          "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 420,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "INT01",
+        "score": 348.1,
+        "reasons": [
+          "阅读与聚焦",
+          "原词命中：真实截图",
+          "相近词：与镜、头推、实截、局部、截图、推进"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "interaction-components",
+          "inputObjects": [
+            "真实截图"
+          ],
+          "action": "黄色荧光笔刷出与镜头推进",
+          "segmentRole": "交互组件",
+          "nativeDurationSeconds": 7.0,
+          "adaptation": "保留的旧动作与Codex版本由用户选择；新增时序和中性微信内容仅内部检查。"
+        },
+        "resolveCommand": "references.py --id interaction-news-brush --full"
+      },
+      {
+        "id": "new30-rc02",
+        "displayLabel": "RC02",
+        "title": "整页镜头推近与回全貌",
+        "useWhen": "整页镜头推近与回全貌",
+        "sceneTypes": [
+          "prompt-reading"
+        ],
+        "collectionId": "expansion-selected-20261007",
+        "editableParameters": [
+          "src",
+          "start",
+          "roi",
+          "clock"
+        ],
+        "knownLimitations": [
+          "认可范围为本轮14个准确示例；新文字、素材、ROI、clock和交接需适配检查。",
+          "本批为画面呈现、内容交接、讲解或录屏聚焦；用户没有认可为吸睛开头。",
+          "Freeze is deliberate: context and crop use the same source frame during reading, while camera motion continues. Playback resumes after freezeTo with elapsed pause removed from source clock. clock:null disables pause but requires ROI rechecking. Source must fit1920×1080 normalized coordinates; source content and scrolling decide valid ROI."
+        ],
+        "nativeTiming": {
+          "fps": 60,
+          "durationInFrames": 480,
+          "width": 1920,
+          "height": 1080
+        },
+        "sourceAvailability": {
+          "available": true,
+          "status": "ready",
+          "authRequired": false,
+          "installationRequired": false,
+          "reason": "Verified source is installed.",
+          "importCommand": null,
+          "downloadCommand": null,
+          "installCommand": null
+        },
+        "label": "RC02",
+        "score": 280.4,
+        "reasons": [
+          "媒体与设备",
+          "阅读与聚焦",
+          "相近词：头推、局部、真实、聚焦、镜头"
+        ],
+        "sameSceneType": true,
+        "productionUse": {
+          "useIds": [
+            "recording-focus"
+          ],
+          "sourceId": "expansion-selected",
+          "inputObjects": [
+            "真实录屏",
+            "ROI",
+            "阅读暂停"
+          ],
+          "action": "A single camera continuously scales the uninterrupted source around a real ROI; there is no detached duplicate card. Camera positions clamp to source bounds.",
+          "segmentRole": "用户已选完整示例组件",
+          "nativeDurationSeconds": 8,
+          "adaptation": "Fred认可本次具体示例及准确源码；新的文字、素材、ROI、数量、cue和组合仍需实际审看。"
+        },
+        "resolveCommand": "references.py --id new30-rc02 --full"
+      }
+    ],
+    "availabilityRule": "Unavailable member candidates remain discoverable and require a reason; select only verified installed source or use the public fallback. componentPlan.access=public limits the comparison to public source.",
+    "narrationCandidates": [],
+    "narrationScope": "Matches from the spoken line only. Use them to widen the visual query, not as a selection."
+  },
+  "scene": {
+    "stableId": "board-focus",
+    "sourceSpans": [
+      {
+        "text": "现场红黑榜，Claude真是罪孽深重啊"
+      }
+    ],
+    "implementationMode": "adapted",
+    "componentPlan": {
+      "query": "真实截图 局部蒙版聚焦与镜头推进",
+      "use": "recording-focus",
+      "candidates": [
+        {
+          "id": "component:interaction-news-spotlight",
+          "decision": "selected",
+          "reason": "同一P08源图先推进再单层挖孔，Claude贴纸仍是原像素，保留上下文。"
+        },
+        {
+          "id": "component:interaction-news-brush",
+          "decision": "rejected",
+          "reason": "荧光笔覆盖照片贴纸会改变红绿颜色，适合文字行而非投票照片。"
+        },
+        {
+          "id": "component:fred-wave3-40-t09o",
+          "decision": "rejected",
+          "reason": "圆镜会裁掉矩形Claude名称与贴纸分布，镜片巡游不适合单一目标。"
+        }
+      ],
+      "inspectedReferences": [
+        {
+          "id": "component:interaction-news-spotlight",
+          "path": "/Volumes/EXTERNAL/自媒体/资产库/FredTalk/组件视频/INT02-2-preview.mp4",
+          "sha256": "31bbd02acb86c9c20e5bcae2321b98becf402532783bfc790d4d4a08a596e1f7",
+          "observations": "已看准确v2采样图0—5.75秒：整页推进，2.75后背景暗，目标孔与源图共变换，后退；本片同对象推进并保留停稳后强调。"
+        }
+      ]
+    },
+    "referenceChoices": [
+      {
+        "id": "component:interaction-news-spotlight",
+        "reason": "同一P08源图先推进再单层挖孔，Claude贴纸仍是原像素，保留上下文。",
+        "preserve": "同源整图、相机组位移与缩放、停稳后单层蒙版挖孔及原曲线完整保留",
+        "change": "横版1920×1080几何参数化为1080×1920；本期P08/ROI，4秒窗口，末态直接交布袋不回全景",
+        "useScope": "20.5—24.5 P08整图到Claude重点"
+      }
+    ]
+  },
+  "manifestPath": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/component-manifest.json",
+  "next": "Inspect each candidate video/core frames, then read the full packet without --candidates-only."
+}

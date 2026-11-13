@@ -1,0 +1,66 @@
+[
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-3x4-1080x1440-v2.png",
+    "sha256": "8e7f7ecf53c66a9e6370990be3500e767de8cf6336b88e734d543834353acb1d",
+    "size": [
+      1080,
+      1440
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-4b24fabe-db0c-4c37-ab59-d3e89bd4e9d8.png",
+    "original_size": [
+      1086,
+      1448
+    ],
+    "method": "independent built-in generation; proportional Lanczos normalization with white padding, no crop/stretch",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-9x16-1080x1920-v2.png",
+    "sha256": "067f4557966b111624029852c593ad3831b1eeb35e64004a36acbf873444d303",
+    "size": [
+      1080,
+      1920
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-33ee4a66-ed78-435e-a7b9-06899c8e69fe.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "method": "independent built-in generation; proportional Lanczos normalization with white padding, no crop/stretch",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-16x9-1920x1080-v2.png",
+    "sha256": "da9773763fdd15fddddacfe30c1ce8cbe041825ab548d748cbc778224ec51db5",
+    "size": [
+      1920,
+      1080
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-9a8b71e7-eaa3-4ec9-bb74-dfb33cbc0c56.png",
+    "original_size": [
+      1672,
+      941
+    ],
+    "method": "independent built-in generation; proportional Lanczos normalization with white padding, no crop/stretch",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING"
+  },
+  {
+    "file": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-4x3-1440x1080-v2.png",
+    "sha256": "1db3cbe4b6d866a5c463e4b241030d921f91d4dc3bf758ec067d502f94f2a701",
+    "size": [
+      1440,
+      1080
+    ],
+    "original_generated_file": "/Users/USER/.codex/generated_images/01a11a6f-49ef-7653-934a-4312979fd4e7/exec-2acc0fb6-9159-4675-bd27-90dc2e522e79.png",
+    "original_size": [
+      1448,
+      1086
+    ],
+    "method": "independent built-in generation; proportional Lanczos normalization with white padding, no crop/stretch",
+    "main_text": "AI考试 / 92分 / 观猹大会",
+    "approval": "PENDING"
+  }
+]

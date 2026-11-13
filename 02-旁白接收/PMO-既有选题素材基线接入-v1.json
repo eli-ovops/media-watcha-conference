@@ -1,0 +1,28 @@
+{
+  "pmo_thread_id": "01a11194-c40d-7bf0-8396-5bb5d6449444",
+  "content_id": "watcha-conference-20261024",
+  "target_stage": "02",
+  "decision": "PASS_BASELINE_ONLY",
+  "human_change_source": "Current PMO chat: user chose exhibition/closed-book92score, requested light narration, no face, supplied 3 exact voice files on2026-10-24.",
+  "preserved_scope": "Actual exhibition media inventory and user facts, chosen script/scene direction. No original stage01 execution is invented.",
+  "known_defects": [
+    "Continuous AV/direct-hearing not proven by prior sampling or ASR; later production/QA still required.",
+    "Voice content may omit Claude; do not fabricate narrated sentence."
+  ],
+  "prior_stage_evidence": {
+    "01": [
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/00-素材接收/素材清单.json",
+        "sha256": "7304774cf17100ad37b0f587eafc96bdbec166ae15cd2962525bccb1b70e8b1b"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/完整口播与现场节奏-v1.md",
+        "sha256": "fd5ffd6a2ed16622db7de76ae5249b7a9c80ac0288ee56e327e22f68c508965d"
+      },
+      {
+        "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/视频方向与结构建议.md",
+        "sha256": "2efaab61e00203efc671900dfcdacef61a0d09727a8cd509f1fed6b09ede7892"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "video_sha256": "6c3f10b0e98eba9b8db239dfc6c8ab4b78693ee19d7cfcb9533c23474a5ed0a8",
+  "samples": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-00.jpg",
+      "time_seconds": 0
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-01.jpg",
+      "time_seconds": 21.2
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-02.jpg",
+      "time_seconds": 21.75
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-03.jpg",
+      "time_seconds": 22.1
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-04.jpg",
+      "time_seconds": 22.35
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-05.jpg",
+      "time_seconds": 22.5
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-06.jpg",
+      "time_seconds": 24.483333
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-07.jpg",
+      "time_seconds": 24.5
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-08.jpg",
+      "time_seconds": 27.483333
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-09.jpg",
+      "time_seconds": 27.5
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-10.jpg",
+      "time_seconds": 30.083333
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-11.jpg",
+      "time_seconds": 30.1
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-12.jpg",
+      "time_seconds": 35.65
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-13.jpg",
+      "time_seconds": 35.666667
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-14.jpg",
+      "time_seconds": 40.483333
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-15.jpg",
+      "time_seconds": 40.5
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/05-独立质检/actual-16.jpg",
+      "time_seconds": 45.683333
+    }
+  ],
+  "covers": [
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-3x4-1080x1440-v2.png",
+      "size": [
+        1080,
+        1440
+      ],
+      "sha_match": true
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-9x16-1080x1920-v2.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "sha_match": true
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-16x9-1920x1080-v2.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha_match": true
+    },
+    {
+      "path": "/Volumes/EXTERNAL/自媒体/watcha-conference-20261024/04-现场粗剪/v2/covers/cover-4x3-1440x1080-v2.png",
+      "size": [
+        1440,
+        1080
+      ],
+      "sha_match": true
+    }
+  ]
+}
